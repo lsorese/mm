@@ -1,0 +1,98 @@
+.header {
+    height: #{$gutter / 2 + em};
+    width: calc(100% - #{$gutter + em});
+    position: fixed;
+    margin-left: #{$gutter / 2 + em};
+    z-index: 100000;
+    &__logo {
+        height: #{$gutter / 2 + em};
+        width: 40%;
+        margin: 0 auto;
+        background-image: url('../images/SVG/Logo.png');
+        background-image: url('../images/SVG/Logo.svg'), linear-gradient(transparent, transparent);
+        background-size: auto 58%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    &__right {
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: $gutter;
+        height: #{$gutter / 2 + em};
+        z-index: 1000;
+        &__icon {
+            float: left;
+            width: #{$gutter / 2.4 + em};
+            height: #{$gutter / 2 + em};
+            &--search {
+                background-size: 50%;
+                background-repeat: no-repeat;
+                background-position: 50% 52%;
+                background-image: url('../images/SVG/Search.png');
+                background-image: url('../images/SVG/Search.svg'), linear-gradient(transparent, transparent);
+            }
+        }
+    }
+}
+
+.hamburger {
+    z-index: 4;
+    top: 0;
+    display: block;
+    float: left;
+    width: 2em;
+    height: 3em;
+    position: relative;
+    &__bun {
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+        position: absolute;
+        overflow: hidden;
+    }
+    .line {
+        background: $mist;
+        height: 1px;
+        margin-bottom: .5rem;
+        float: right;
+        width: 100%;
+        transition: all .5s ease;
+        transform: translate(.25em, 1.25em);
+        &--two {
+            width: 80%;
+        }
+    }
+    &:hover {
+        .line--one,
+        .line--three {
+            width: 80%;
+        }
+        .line--two {
+            width: 100%;
+        }
+    }
+    &.hamburger--open {
+        .line {
+            margin: 0;
+            width: 100%;
+        }
+        .line--two {
+            background-color: transparent;
+        }
+        .line--one,
+        .line--three {
+            top: 0;
+        }
+        .line--one {
+            transform: rotate(45deg) translate(1.20em, 1.25em);
+        }
+        .line--three {
+            transform: rotate(-45deg) translate(-1.15em, 1.10em);
+        }
+    }
+}

@@ -1,0 +1,805 @@
+@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.1
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026; }
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C; }
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222; }
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right; }
+
+body {
+  word-wrap: break-word; }
+
+pre code {
+  word-wrap: normal; }
+
+html {
+  font: normal 112.5%/1.65 serif; }
+
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444; }
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.9393939394rem; }
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303030303rem; }
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.4242424242rem; }
+
+.typl8-alpha, h2 {
+  font-size: 3.3333333333em;
+  margin-bottom: 2.0202020202rem; }
+
+.typl8-beta, h3 {
+  font-size: 2.6666666667em;
+  margin-bottom: 1.6161616162rem; }
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.2121212121rem; }
+
+.typl8-delta, h5 {
+  font-size: 1.3333333333em;
+  margin-bottom: 0.8080808081rem; }
+
+.typl8-epsilon {
+  font-size: 1.1666666667em;
+  margin-bottom: 0.7070707071rem; }
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.6060606061rem; }
+
+p {
+  margin: auto auto 1.5rem; }
+  p + p {
+    text-indent: 1.5rem;
+    margin-top: -1.5rem; }
+
+small {
+  font-size: 65%; }
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
+
+pre {
+  white-space: pre; }
+  pre code {
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap; }
+
+code {
+  white-space: pre;
+  font-family: monospace; }
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray; }
+  abbr[title]:hover {
+    cursor: help; }
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit; }
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0; }
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0; }
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre; }
+
+.typl8-lining dd + dd:before {
+  content: ", "; }
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem; }
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions; }
+  .typl8-dictionary-style dt + dt:before {
+    content: ", ";
+    margin-left: -0.2rem; }
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions; }
+  .typl8-dictionary-style dd:before {
+    content: counter(definitions, decimal) ". "; }
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em; }
+  .typl8-pull-quote:before, .typl8-pull-quote:after {
+    height: 1em;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 4em;
+    color: #dc976e; }
+  .typl8-pull-quote:before {
+    content: '“';
+    top: 0;
+    left: 0; }
+  .typl8-pull-quote:after {
+    content: '”';
+    bottom: 0;
+    right: 0; }
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.slicknav_menu {
+  display: none; }
+
+::-webkit-input-placeholder {
+  color: #333; }
+
+html {
+  height: 100%;
+  height: 100%;
+  color: #404040;
+  text-rendering: optimizeLegibility; }
+
+@media (min-width: 1025px) {
+  html {
+    font-weight: 300; } }
+
+body {
+  box-sizing: inherit;
+  margin: 0;
+  line-height: 100%;
+  font-size: 16px; }
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: inherit; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+a:hover {
+  opacity: .9; }
+
+img {
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+@font-face {
+  font-family: 'Bebas Neue Regular';
+  src: url("../fonts/BebasNeue-webfont.eot");
+  src: url("../fonts/BebasNeue-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue-webfont.woff") format("woff"), url("../fonts/BebasNeue-webfont.ttf") format("truetype"), url("../fonts/BebasNeue-webfont.svg#bebas_neueregular") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Bebas Regular';
+  src: url("../fonts/BEBAS___-webfont.eot");
+  src: url("../fonts/BEBAS___-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BEBAS___-webfont.woff") format("woff"), url("../fonts/BEBAS___-webfont.ttf") format("truetype"), url("../fonts/BEBAS___-webfont.svg#BebasRegular") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Light Italic';
+  src: url("../fonts/Futura-Light-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Light-Italic.woff") format("woff"), url("../fonts/Futura-Light-Italic.ttf") format("truetype"), url("../fonts/Futura-Light-Italic.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Bold Italic';
+  src: url("../fonts/Futura-Bold-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Bold-Italic.woff") format("woff"), url("../fonts/Futura-Bold-Italic.ttf") format("truetype"), url("../fonts/Futura-Bold-Italic.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Bold';
+  src: url("../fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Bold.woff") format("woff"), url("../fonts/Futura-Bold.ttf") format("truetype"), url("../fonts/Futura-Bold.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Book Italic';
+  src: url("../fonts/Futura-Book-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Book-Italic.woff") format("woff"), url("../fonts/Futura-Book-Italic.ttf") format("truetype"), url("../fonts/Futura-Book-Italic.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Book';
+  src: url("../fonts/Futura-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Book.woff") format("woff"), url("../fonts/Futura-Book.ttf") format("truetype"), url("../fonts/Futura-Book.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Light';
+  src: url("../fonts/Futura-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Light.woff") format("woff"), url("../fonts/Futura-Light.ttf") format("truetype"), url("../fonts/Futura-Light.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Medium Italic';
+  src: url("../fonts/Futura-Medium-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Medium-Italic.woff") format("woff"), url("../fonts/Futura-Medium-Italic.ttf") format("truetype"), url("../fonts/Futura-Medium-Italic.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: url("../fonts/Futura-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Medium.woff") format("woff"), url("../fonts/Futura-Medium.ttf") format("truetype"), url("../fonts/Futura-Medium.svg#webfont") format("svg");
+  font-weight: normal; }
+
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; } }
+
+html {
+  font: 400 16px "Futura Medium", sans-serif; }
+
+.base {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  overflow: hidden; }
+  .base__scroll {
+    position: absolute;
+    right: .5rem;
+    z-index: 90000;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    width: 3.5rem;
+    transform: translate(0, 5em);
+    display: block; }
+    .base__scroll__box {
+      background: white;
+      float: right;
+      white-space: nowrap;
+      font-weight: normal;
+      display: block;
+      width: auto;
+      width: 2.5rem;
+      height: 2.5rem;
+      text-align: center;
+      line-height: 2.5rem;
+      border: 1px solid #000000;
+      transition: 1s width;
+      overflow: hidden; }
+      .base__scroll__box:hover {
+        width: 6.5rem;
+        padding: 0 .75em;
+        text-align: left; }
+        .base__scroll__box:hover span {
+          display: inline;
+          animation: fadeInLoad 5s;
+          opacity: 1; }
+    .base__scroll span {
+      display: none;
+      opacity: 0; }
+  .base__inside {
+    position: relative;
+    width: calc(100% - 7em);
+    height: calc(100% - 7em);
+    top: 3.5em;
+    left: 3.5em;
+    background: #BBBDBF;
+    text-align: center; }
+    .base__inside--sub {
+      overflow: scroll; }
+  .base__pagination {
+    background: #fff;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 3.5em;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .base__section {
+    width: 100%;
+    position: absolute;
+    z-index: 100; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  background: #BBBDBF;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.scrollArrow {
+  position: relative;
+  height: 4em;
+  width: 9em;
+  margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  margin-left: -4.5em;
+  z-index: 1000;
+  bottom: 6em;
+  transform: rotate(-90deg); }
+  .scrollArrow span {
+    display: block;
+    position: absolute;
+    height: 3em;
+    width: 5em;
+    line-height: 3.60em;
+    text-align: center;
+    font-size: 1.15em;
+    right: 0;
+    color: white;
+    letter-spacing: 1px; }
+  .scrollArrow div {
+    transform: rotate(-180deg);
+    left: 0;
+    transition: .5s all;
+    display: block;
+    content: " ";
+    width: 4em;
+    position: absolute;
+    right: 0;
+    height: 4em;
+    background-image: url("../images/SVG/BlueArrow.png");
+    background-image: url("../images/SVG/BlueArrow.svg"), linear-gradient(transparent, transparent);
+    background-position: 115% center;
+    background-size: auto 25%;
+    background-repeat: no-repeat; }
+  .scrollArrow:hover {
+    padding: 0 1em 0 3em; }
+    .scrollArrow:hover div {
+      background-position: 105% center; }
+
+.grid__wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  overflow-y: scroll; }
+
+.base__inside--home .grid__wrap {
+  overflow: hidden !important; }
+
+.masthead {
+  overflow: hidden;
+  width: calc(100%);
+  display: flex;
+  align-items: center; }
+  .masthead .brick__h2 {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: "Futura Light";
+    letter-spacing: .1em;
+    margin-bottom: 1em;
+    margin-top: 1em; }
+  .masthead .brick__p {
+    width: 41%;
+    margin: 0 auto;
+    font-size: .8em;
+    line-height: 1.75em;
+    font-weight: normal; }
+
+.grid-item {
+  width: calc(100% / 4);
+  background: yellow; }
+  .grid-item--tall {
+    background: red; }
+  .grid-item--wide {
+    background: blue;
+    width: calc(100% / 2); }
+
+.bullet {
+  cursor: pointer;
+  background: none;
+  width: 10em;
+  float: right;
+  height: 20px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+  left: -3px; }
+  .bullet__one {
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #929497;
+    line-height: 20px;
+    width: 8px;
+    float: right;
+    height: 8px;
+    margin: 0px 22px;
+    transition: width .1s, height .1s, margin .1s, border-radius .1s; }
+  .bullet__two {
+    height: 1px;
+    width: 0;
+    float: right;
+    margin-right: 20px;
+    transition: width .5s; }
+  .bullet__name {
+    display: block;
+    position: relative;
+    font-size: 10px;
+    top: -3px;
+    font-weight: lighter;
+    color: #7F7F7F;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: right;
+    transition: all .5s;
+    transform: translate(17em, 0); }
+  .bullet.active .bullet__one {
+    border: 1px solid #222; }
+  .bullet:hover .bullet__one {
+    position: relative;
+    opacity: 0;
+    height: 0;
+    width: 0; }
+  .bullet:hover .bullet__two {
+    display: block;
+    position: relative;
+    top: -12px;
+    float: right;
+    border-bottom: 1px solid #222;
+    height: 1px;
+    width: 22px; }
+  .bullet:hover .bullet__name {
+    transform: translate(6.5em, 0); }
+
+.header {
+  height: 3.5em;
+  width: calc(100% - 7em);
+  position: fixed;
+  margin-left: 3.5em;
+  z-index: 100000; }
+  .header__logo {
+    height: 3.5em;
+    width: 40%;
+    margin: 0 auto;
+    background-image: url("../images/SVG/Logo.png");
+    background-image: url("../images/SVG/Logo.svg"), linear-gradient(transparent, transparent);
+    background-size: auto 58%;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .header__right {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 7;
+    height: 3.5em;
+    z-index: 1000; }
+    .header__right__icon {
+      float: left;
+      width: 2.9166666667em;
+      height: 3.5em; }
+      .header__right__icon--search {
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 50% 52%;
+        background-image: url("../images/SVG/Search.png");
+        background-image: url("../images/SVG/Search.svg"), linear-gradient(transparent, transparent); }
+
+.hamburger {
+  z-index: 4;
+  top: 0;
+  display: block;
+  float: left;
+  width: 2em;
+  height: 3em;
+  position: relative; }
+  .hamburger__bun {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    position: absolute;
+    overflow: hidden; }
+  .hamburger .line {
+    background: #929497;
+    height: 1px;
+    margin-bottom: .5rem;
+    float: right;
+    width: 100%;
+    transition: all .5s ease;
+    transform: translate(0.25em, 1.25em); }
+    .hamburger .line--two {
+      width: 80%; }
+  .hamburger:hover .line--one,
+  .hamburger:hover .line--three {
+    width: 80%; }
+  .hamburger:hover .line--two {
+    width: 100%; }
+  .hamburger.hamburger--open .line {
+    margin: 0;
+    width: 100%; }
+  .hamburger.hamburger--open .line--two {
+    background-color: transparent; }
+  .hamburger.hamburger--open .line--one,
+  .hamburger.hamburger--open .line--three {
+    top: 0; }
+  .hamburger.hamburger--open .line--one {
+    transform: rotate(45deg) translate(1.2em, 1.25em); }
+  .hamburger.hamburger--open .line--three {
+    transform: rotate(-45deg) translate(-1.15em, 1.1em); }
+
+.drawer-overlay {
+  background-color: RGBA(255, 255, 255, 0.5); }
+
+.drawer--right .drawer-nav {
+  right: -22.5rem; }
+
+.drawer-nav {
+  z-index: 1000000000;
+  height: calc(100% - 7em);
+  margin-top: 3.5em;
+  width: 22.5em; }
+  .drawer-nav ul {
+    padding-top: 1em; }
+    .drawer-nav ul li {
+      height: 7.15em;
+      line-height: 7.15em;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+      .drawer-nav ul li a {
+        font-family: "Futura Medium";
+        font-size: 1em;
+        color: #939598; }
+
+.footer {
+  height: 3.5em;
+  width: calc(100% - 7em);
+  position: fixed;
+  bottom: 0;
+  margin-left: 3.5em; }
+  .footer__newsletter, .footer__legal {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: .75em;
+    text-align: left;
+    color: #939598;
+    float: left; }
+  .footer__newsletter {
+    position: relative;
+    float: right; }
+  .footer__social {
+    float: right; }
+    .footer__social__icon {
+      height: 3.3em;
+      width: 2.6em;
+      float: left;
+      background-image: url("../images/SVG/Facebook.png");
+      background-image: url("../images/SVG/Facebook.svg"), linear-gradient(transparent, transparent);
+      background-size: auto 25%;
+      background-repeat: no-repeat;
+      background-position: center right; }
+      .footer__social__icon--instagram {
+        background-image: url("../images/SVG/Instagram.png");
+        background-image: url("../images/SVG/Instagram.svg"), linear-gradient(transparent, transparent); }
+      .footer__social__icon--linkedin {
+        background-image: url("../images/SVG/Linkedin.png");
+        background-image: url("../images/SVG/Linkedin.svg"), linear-gradient(transparent, transparent); }
+      .footer__social__icon--twitter {
+        background-image: url("../images/SVG/Twitter.png");
+        background-image: url("../images/SVG/Twitter.svg"), linear-gradient(transparent, transparent); }
+
+.pOverlay {
+  width: 80%;
+  text-align: left;
+  padding-top: 1em; }
+  .pOverlay--center {
+    text-align: center; }
+  .pOverlay__h2, .pOverlay__h3 {
+    font-size: 28pt;
+    line-height: 30pt;
+    letter-spacing: 2pt;
+    font-family: "Futura Light"; }
+  .pOverlay__h3 {
+    width: 35%;
+    margin-top: .5em;
+    font-size: 14pt;
+    line-height: 20pt;
+    letter-spacing: 1pt; }
+  .pOverlay__button {
+    position: relative;
+    font-family: "Futura Light";
+    display: inline-block;
+    height: 2.5em;
+    margin-top: 3em;
+    line-height: 2.5em;
+    padding: 0 2em;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s all;
+    text-transform: uppercase; }
+    .pOverlay__button--center {
+      margin: 0 auto; }
+    .pOverlay__button div {
+      transition: .5s all;
+      display: block;
+      content: " ";
+      width: 5em;
+      position: absolute;
+      padding-left: 1em;
+      left: -1.25em;
+      height: 2.5em;
+      background-image: url("../images/SVG/BlueArrow.png");
+      background-image: url("../images/SVG/BlueArrow.svg"), linear-gradient(transparent, transparent);
+      background-position: 125% center;
+      background-size: auto 40%;
+      background-repeat: no-repeat; }
+    .pOverlay__button:hover {
+      padding: 0 1em 0 3em; }
+      .pOverlay__button:hover div {
+        background-position: 115% center; }

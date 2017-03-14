@@ -1,0 +1,48 @@
+.footer {
+    height: #{$gutter / 2 + em};
+    width: calc(100% - #{$gutter + em});
+    position: fixed;
+    bottom: 0;
+    margin-left: #{$gutter / 2 + em};
+    &__newsletter,
+    &__legal {
+        height: #{$gutter / 2 + rem};
+        line-height: #{$gutter / 2 + rem};
+        font-size: .75em;
+        text-align: left;
+        color: $grey;
+        float: left;
+    }
+    &__newsletter {
+        position: relative;
+        float: right;
+        &__box {
+
+        }
+    }
+    &__social {
+        float: right;
+        &__icon {
+            height: 3.3em;
+            width: 2.6em;
+            float: left;
+            background-image: url('../images/SVG/Facebook.png');
+            background-image: url('../images/SVG/Facebook.svg'), linear-gradient(transparent, transparent);
+            background-size: auto 25%;
+            background-repeat: no-repeat;
+            background-position: center right;
+            &--instagram {
+                background-image: url('../images/SVG/Instagram.png');
+                background-image: url('../images/SVG/Instagram.svg'), linear-gradient(transparent, transparent);
+            }
+            &--linkedin {
+                background-image: url('../images/SVG/Linkedin.png');
+                background-image: url('../images/SVG/Linkedin.svg'), linear-gradient(transparent, transparent);
+            }
+            &--twitter {
+                background-image: url('../images/SVG/Twitter.png');
+                background-image: url('../images/SVG/Twitter.svg'), linear-gradient(transparent, transparent);
+            }
+        }
+    }
+}

@@ -1,0 +1,7812 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "B0793841-85BA-4138-8753-37CAE5FC0931"
+		}
+	],
+"creatorBuild": "25704",
+"files": {
+	"\/assets\/css\/.sass-cache\/83e2ba6a413dd8d6e633a7e97694b95bcc6acd71\/index2.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/83e2ba6a413dd8d6e633a7e97694b95bcc6acd71\/index2.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/a3f72ff35fed7ec745b25287cd10aea493218e65\/fonts.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/a3f72ff35fed7ec745b25287cd10aea493218e65\/fonts.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/a3f72ff35fed7ec745b25287cd10aea493218e65\/mixin.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/a3f72ff35fed7ec745b25287cd10aea493218e65\/mixin.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/core.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/core.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/mixin.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/mixin.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/reset.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/reset.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/slick-theme.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/slick-theme.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/slick.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/slick.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/slicknav.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/slicknav.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/theme.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/aacac857c7df475157cd1bf48f755353ad444fc1\/theme.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/.sass-cache\/b0638c87d046e4d7291a01b85df4098d6da3186e\/index2.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/.sass-cache\/b0638c87d046e4d7291a01b85df4098d6da3186e\/index2.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/assets\/css\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/css\/includes\/animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/mixin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/mixin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/var.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/var.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/index.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/index-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/index.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/index.css.map",
+		"oF": 0
+		},
+	"\/assets\/css\/index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/base-bullet.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base-bullet.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/base-footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base-footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/base-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/base-header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base-header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/base-nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base-nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/panel-overlay.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/panel-overlay.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/fonts\/BEBAS___-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BEBAS___-webfont.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BEBAS___-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BEBAS___-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/BEBAS___-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BEBAS___-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BEBAS___-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BEBAS___-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BebasNeue-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BebasNeue-webfont.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BebasNeue-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BebasNeue-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/BebasNeue-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BebasNeue-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BebasNeue-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BebasNeue-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Bold-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Bold-Italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold-Italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Bold-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Bold-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Bold.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Book-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Book-Italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book-Italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Book-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Book-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Book.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Book.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Book.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Book.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Book.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Light-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Light-Italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light-Italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Light-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Light-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Light.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Medium-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Medium-Italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium-Italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Medium-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Medium-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Futura-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Futura-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Futura-Medium.woff",
+		"oF": 0
+		},
+	"\/assets\/images\/PNG\/BlueArrow.png": {
+		"ft": 32768,
+		"iS": 416,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/BlueArrow.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Collapse_Large.png": {
+		"ft": 32768,
+		"iS": 515,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Collapse_Large.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Collapse_small.png": {
+		"ft": 32768,
+		"iS": 214,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Collapse_small.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Facebook.png": {
+		"ft": 32768,
+		"iS": 219,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Facebook.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Instagram.png": {
+		"ft": 32768,
+		"iS": 404,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Instagram.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Linkedin.png": {
+		"ft": 32768,
+		"iS": 292,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Linkedin.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Logo.png": {
+		"ft": 32768,
+		"iS": 6117,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Logo.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Pagination_next.png": {
+		"ft": 32768,
+		"iS": 223,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Pagination_next.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Pagination_prev.png": {
+		"ft": 32768,
+		"iS": 225,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Pagination_prev.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/search.png": {
+		"ft": 32768,
+		"iS": 556,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/search.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/PNG\/Twitter.png": {
+		"ft": 32768,
+		"iS": 389,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/PNG\/Twitter.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/SVG\/BlueArrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/BlueArrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Collapse_Large.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Collapse_Large.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Collapse_small.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Collapse_small.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Pagination_next.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Pagination_next.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Pagination_prev.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Pagination_prev.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/search.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/SVG\/Twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/SVG\/Twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/js\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/modernizr.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/modernizr.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/animsition\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/animsition\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/animsition\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/animsition\/dist\/css\/animsition.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/dist\/css\/animsition.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/dist\/css\/animsition.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/dist\/css\/animsition.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/dist\/js\/animsition.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/dist\/js\/animsition.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/animsition\/dist\/js\/animsition.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/dist\/js\/animsition.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/animsition\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/gulpfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/animsition\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/LICENSE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/animsition\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/animsition\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/data-options.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/data-options.html",
+		"oF": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/data.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/data.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/animsition\/sandbox\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/methods-in.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/methods-in.html",
+		"oF": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/methods-out.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/methods-out.html",
+		"oF": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/options.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/options.html",
+		"oF": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/overlay1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/overlay1.html",
+		"oF": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/overlay2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/overlay2.html",
+		"oF": 0
+		},
+	"\/bower_components\/animsition\/sandbox\/sandbox.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/sandbox\/sandbox.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/animsition.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/animsition.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/base.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/base.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-down-lg.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-down-lg.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-down-sm.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-down-sm.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-down.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-down.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-left-lg.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-left-lg.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-left-sm.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-left-sm.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-left.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-left.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-right-lg.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-right-lg.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-right-sm.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-right-sm.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-right.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-right.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-up-lg.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-up-lg.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-up-sm.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-up-sm.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade-up.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade-up.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/fade\/fade.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/fade\/fade.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/flip\/flip-x-fr.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/flip\/flip-x-fr.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/flip\/flip-x-nr.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/flip\/flip-x-nr.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/flip\/flip-x.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/flip\/flip-x.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/flip\/flip-y-fr.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/flip\/flip-y-fr.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/flip\/flip-y-nr.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/flip\/flip-y-nr.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/flip\/flip-y.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/flip\/flip-y.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/loading.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/loading.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-bottom.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-bottom.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-left.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-left.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-right.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-right.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-top.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/overlay\/overlay-slide-top.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/rotate\/rotate-lg.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/rotate\/rotate-lg.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/rotate\/rotate-sm.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/rotate\/rotate-sm.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/rotate\/rotate.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/rotate\/rotate.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/zoom\/zoom-lg.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/zoom\/zoom-lg.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/zoom\/zoom-sm.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/zoom\/zoom-sm.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/css\/zoom\/zoom.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/css\/zoom\/zoom.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/animsition\/src\/js\/animsition.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/animsition\/src\/js\/animsition.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/desandro-matches-selector\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/desandro-matches-selector\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/desandro-matches-selector\/matches-selector.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/matches-selector.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/desandro-matches-selector\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/drawer\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/drawer\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/drawer\/dist\/css\/drawer.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/dist\/css\/drawer.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/dist\/css\/drawer.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/dist\/css\/drawer.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/dist\/js\/drawer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/dist\/js\/drawer.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/drawer\/dist\/js\/drawer.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/dist\/js\/drawer.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/drawer\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/gulpfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/drawer\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/LICENSE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/drawer\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/drawer\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/fixed-navbar-left.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/fixed-navbar-left.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/fixed-navbar-right.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/fixed-navbar-right.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/fixed-navbar-top.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/fixed-navbar-top.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/navbar-left.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/navbar-left.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/navbar-right.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/navbar-right.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/navbar-top.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/navbar-top.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/right.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/right.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/sandbox.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/sandbox.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/sidebar-left.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/sidebar-left.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/sidebar-right.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/sidebar-right.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/sandbox\/top.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/sandbox\/top.html",
+		"oF": 0
+		},
+	"\/bower_components\/drawer\/scss\/_accessibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_accessibility.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_base.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_container.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_dropdown.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_dropdown.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_hamburger.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_hamburger.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_navbar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_navbar.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_position-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_position-left.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_position-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_position-right.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_position-top.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_position-top.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_sidebar.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/drawer\/scss\/_variables.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/scss\/drawer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/scss\/drawer.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/drawer\/src\/css\/accessibility.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/accessibility.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/base.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/base.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/container.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/container.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/drawer.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/drawer.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/dropdown.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/dropdown.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/hamburger.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/hamburger.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/navbar.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/navbar.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/position-left.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/position-left.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/position-right.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/position-right.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/position-top.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/position-top.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/sidebar.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/sidebar.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/css\/variables.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/css\/variables.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/drawer\/src\/js\/drawer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/drawer\/src\/js\/drawer.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/ev-emitter\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ev-emitter\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ev-emitter\/ev-emitter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/ev-emitter.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/ev-emitter\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ev-emitter\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/fizzy-ui-utils\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/fizzy-ui-utils\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/fizzy-ui-utils\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/fizzy-ui-utils\/utils.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/utils.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/get-size\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/get-size\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/get-size\/get-size.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/get-size.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/get-size\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/iscroll\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/.nodemonignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/.nodemonignore",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/build.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/build.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/build\/iscroll-infinite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/build\/iscroll-infinite.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/build\/iscroll-lite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/build\/iscroll-lite.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/build\/iscroll-probe.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/build\/iscroll-probe.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/build\/iscroll-zoom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/build\/iscroll-zoom.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/build\/iscroll.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/build\/iscroll.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/iscroll\/demos\/2d-scroll\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/2d-scroll\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/barebone\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/barebone\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/bounce-easing\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/bounce-easing\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/carousel\/gaugin.jpg": {
+		"ft": 16384,
+		"iS": 10618,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/carousel\/gaugin.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/carousel\/giotto.jpg": {
+		"ft": 16384,
+		"iS": 16561,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/carousel\/giotto.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/carousel\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/carousel\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/carousel\/leonardo.jpg": {
+		"ft": 16384,
+		"iS": 7894,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/carousel\/leonardo.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/carousel\/warhol.jpg": {
+		"ft": 16384,
+		"iS": 12457,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/carousel\/warhol.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/click\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/click\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/event-passthrough\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/event-passthrough\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/forms\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/forms\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/horizontal\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/horizontal\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/infinite\/dataset.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/infinite\/dataset.php",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/infinite\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/infinite\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/key-bindings\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/key-bindings\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/minimap\/ermine.jpg": {
+		"ft": 16384,
+		"iS": 155092,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/minimap\/ermine.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/minimap\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/minimap\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/no-transition\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/no-transition\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/parallax\/galaxies1.png": {
+		"ft": 32768,
+		"iS": 105019,
+		"l": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/parallax\/galaxies1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/parallax\/galaxies2.png": {
+		"ft": 32768,
+		"iS": 92917,
+		"l": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/parallax\/galaxies2.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/parallax\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/parallax\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/parallax\/stars.jpg": {
+		"ft": 16384,
+		"iS": 30908,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/parallax\/stars.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/iscroll\/demos\/probe\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/probe\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/scroll-to-element\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/scroll-to-element\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/scrollbars\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/scrollbars\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/simple\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/simple\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/snap\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/snap\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/styled-scrollbars\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/styled-scrollbars\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/tap\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/tap\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/demos\/zoom\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/demos\/zoom\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/iscroll\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/iscroll\/RELEASENOTES.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/RELEASENOTES.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/iscroll\/src\/close.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/close.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/core.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/core.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/default\/_animate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/default\/_animate.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/default\/handleEvent.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/default\/handleEvent.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/indicator\/_initIndicators.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/indicator\/_initIndicators.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/indicator\/_transitionTime.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/indicator\/_transitionTime.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/indicator\/_transitionTimingFunction.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/indicator\/_transitionTimingFunction.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/indicator\/_translate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/indicator\/_translate.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/indicator\/build.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/indicator\/build.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/src\/indicator\/indicator.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/indicator\/indicator.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/infinite\/build.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/infinite\/build.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/src\/infinite\/infinite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/infinite\/infinite.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/infinite\/refresh.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/infinite\/refresh.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/keys\/build.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/keys\/build.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/src\/keys\/keys.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/keys\/keys.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/open.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/open.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/probe\/_animate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/probe\/_animate.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/probe\/_move.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/probe\/_move.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/probe\/build.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/probe\/build.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/src\/probe\/indicator._move.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/probe\/indicator._move.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/probe\/probe.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/probe\/probe.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/snap\/_end.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/iscroll\/src\/snap\/_end.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/snap\/build.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/snap\/build.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/src\/snap\/refresh.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/snap\/refresh.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/snap\/snap.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/snap\/snap.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/utils.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/utils.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/wheel\/build.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/wheel\/build.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/src\/wheel\/wheel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/wheel\/wheel.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/zoom\/build.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/zoom\/build.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/iscroll\/src\/zoom\/handleEvent.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/zoom\/handleEvent.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/zoom\/refresh.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/zoom\/refresh.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/iscroll\/src\/zoom\/zoom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/iscroll\/src\/zoom\/zoom.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/isotope\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/isotope\/dist\/isotope.pkgd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/dist\/isotope.pkgd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/dist\/isotope.pkgd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/dist\/isotope.pkgd.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/gulpfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/js\/isotope.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/js\/isotope.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/js\/item.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/js\/item.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/js\/layout-mode.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/js\/layout-mode.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/js\/layout-modes\/fit-rows.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/js\/layout-modes\/fit-rows.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/js\/layout-modes\/masonry.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/js\/layout-modes\/masonry.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/js\/layout-modes\/vertical.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/js\/layout-modes\/vertical.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/isotope\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/isotope\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/jQuery-runner\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jQuery-runner\/.bowerrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/.bowerrc",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-runner\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-runner\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/.travis.yml",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-runner\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jQuery-runner\/build\/jquery.runner-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/build\/jquery.runner-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-runner\/build\/jquery.runner.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/build\/jquery.runner.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/bower_components\/jQuery-runner\/build\/jquery.runner.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/build\/jquery.runner.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-runner\/Gruntfile.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/Gruntfile.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/bower_components\/jQuery-runner\/lib\/expose.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/lib\/expose.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/bower_components\/jQuery-runner\/lib\/runner.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/lib\/runner.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/bower_components\/jQuery-runner\/lib\/utils.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/lib\/utils.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/bower_components\/jQuery-runner\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-runner\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jQuery-runner\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/jQuery-runner\/runner.jquery.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/runner.jquery.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jQuery-runner\/spec\/helpers\/SpecHelper.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/spec\/helpers\/SpecHelper.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/bower_components\/jQuery-runner\/spec\/tests\/RunnerSpec.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/spec\/tests\/RunnerSpec.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1
+		},
+	"\/bower_components\/jQuery-runner\/SpecRunner.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-runner\/SpecRunner.html",
+		"oF": 0
+		},
+	"\/bower_components\/jquery\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jquery\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jquery\/dist\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/dist\/jquery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/dist\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/dist\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.map",
+		"oF": 0
+		},
+	"\/bower_components\/jquery\/MIT-LICENSE.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/MIT-LICENSE.txt",
+		"oF": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/jsonp.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/load.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/load.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/parseJSON.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/parseJSON.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/parseXML.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/script.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/script.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/nonce.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/rquery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/ajax\/xhr.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/ajax\/xhr.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/attributes.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/attributes.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/attributes\/attr.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/attributes\/attr.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/attributes\/classes.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/attributes\/classes.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/attributes\/prop.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/attributes\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/attributes\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/attributes\/val.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/attributes\/val.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/callbacks.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/callbacks.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core\/access.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core\/access.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core\/init.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core\/init.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core\/parseHTML.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core\/parseHTML.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core\/ready.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core\/ready.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/addGetHookIf.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/curCSS.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/curCSS.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/defaultDisplay.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/defaultDisplay.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/swap.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/swap.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/var\/cssExpand.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/var\/isHidden.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/var\/isHidden.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rmargin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/data.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/data.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/data\/accepts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/data\/accepts.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/data\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/data\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/deferred.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/deferred.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/deprecated.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/deprecated.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/dimensions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/dimensions.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/effects.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/effects.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/effects\/animatedSelector.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/effects\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/effects\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/effects\/Tween.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/effects\/Tween.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/event.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/event.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/event\/ajax.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/event\/ajax.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/event\/alias.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/event\/alias.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/event\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/event\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/exports\/amd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/exports\/amd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/exports\/global.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/exports\/global.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/intro.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/intro.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/jquery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/manipulation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/manipulation.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/manipulation\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/manipulation\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/offset.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/offset.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/outro.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/outro.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/queue.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/queue.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/queue\/delay.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/queue\/delay.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/selector-sizzle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/selector-sizzle.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/selector.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/selector.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/serialize.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/serialize.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.map",
+		"oF": 0
+		},
+	"\/bower_components\/jquery\/src\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/traversing.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/traversing.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/traversing\/findFilter.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/class2type.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/class2type.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/concat.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/concat.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/deletedIds.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/deletedIds.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/hasOwn.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/hasOwn.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/indexOf.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/indexOf.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/pnum.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/pnum.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/push.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/push.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/rnotwhite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/rnotwhite.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/slice.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/slice.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/strundefined.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/strundefined.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/support.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/toString.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/toString.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/wrap.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/wrap.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/masonry\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/masonry\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/masonry\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/masonry\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/masonry\/dist\/masonry.pkgd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/masonry\/dist\/masonry.pkgd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/masonry\/dist\/masonry.pkgd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/masonry\/dist\/masonry.pkgd.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/masonry\/masonry.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/masonry\/masonry.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/masonry\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/masonry\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/outlayer\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/outlayer\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/outlayer\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/outlayer\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/outlayer\/item.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/outlayer\/item.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/outlayer\/outlayer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/outlayer\/outlayer.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/outlayer\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/outlayer\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/swiper\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/swiper\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/swiper\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/swiper\/component.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/component.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/swiper\/dist\/css\/swiper.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/css\/swiper.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/swiper\/dist\/css\/swiper.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/css\/swiper.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/maps\/swiper.jquery.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/maps\/swiper.jquery.min.js.map",
+		"oF": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/maps\/swiper.jquery.umd.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/maps\/swiper.jquery.umd.min.js.map",
+		"oF": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/maps\/swiper.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/maps\/swiper.min.js.map",
+		"oF": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/swiper.jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/swiper.jquery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/swiper.jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/swiper.jquery.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/swiper.jquery.umd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/swiper.jquery.umd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/swiper.jquery.umd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/swiper.jquery.umd.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/swiper.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/swiper.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/dist\/js\/swiper.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/dist\/js\/swiper.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/gulpfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/swiper\/modules.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/modules.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/swiper\/package.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/package.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/a11y.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/a11y.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/amd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/amd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/controller.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/controller.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/core.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/core.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/dom-plugins.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/dom-plugins.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/dom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/dom.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/effects.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/effects.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/emitter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/emitter.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/get-dom-lib.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/get-dom-lib.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/get-jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/get-jquery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/hashnav.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/hashnav.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/history.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/history.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/init.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/init.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/keyboard.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/keyboard.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/lazy-load.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/lazy-load.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/mousewheel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/mousewheel.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/parallax.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/parallax.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/plugins.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/plugins.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/scrollbar.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/scrollbar.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/swiper-intro-f7.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/swiper-intro-f7.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/swiper-intro.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/swiper-intro.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/swiper-outro.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/swiper-outro.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/swiper-proto.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/swiper-proto.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/wrap-end-umd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/wrap-end-umd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/wrap-end.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/wrap-end.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/wrap-start-umd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/wrap-start-umd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/wrap-start.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/wrap-start.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/js\/zoom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/js\/zoom.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/core.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/swiper\/src\/less\/core.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/effects.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/swiper\/src\/less\/effects.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/mixins.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/swiper\/src\/less\/mixins.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/navigation-f7.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/less\/navigation-f7.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/navigation.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/swiper\/src\/less\/navigation.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/preloader-f7.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/less\/preloader-f7.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/preloader.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/swiper\/src\/less\/preloader.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/scrollbar.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/swiper\/src\/less\/scrollbar.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/swiper.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/swiper\/src\/less\/swiper.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/swiper\/src\/less\/zoom.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/swiper\/src\/less\/zoom.less",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/bower_components\/typeplate-starter-kit\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/typeplate-starter-kit\/css\/typeplate.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/css\/typeplate.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/typeplate-starter-kit\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/license.txt",
+		"oF": 0
+		},
+	"\/bower_components\/typeplate-starter-kit\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-extends.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-extends.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-fonts.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-functions.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-helpers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-helpers.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-index.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-mixins.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-styles.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/typeplate-starter-kit\/scss\/_typeplate-vars.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/index--noSlider.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index--noSlider.html",
+		"oF": 0
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/.eslintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/.eslintrc",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/.gitignore",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/.jshintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/.jshintrc",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/base\/custom-media.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/base\/custom-media-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/base\/elements.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/base\/elements-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/base\/variables.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/base\/variables-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/aligner.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/aligner-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/browser.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/browser-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/button.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/button-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/container.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/container-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/demo.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/demo-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/error.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/error-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/feature.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/feature-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/footer.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/footer-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/grid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/grid-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/header.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/header-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/holy-grail.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/holy-grail-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/image.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/image-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/input-add-on.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/input-add-on-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/media.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/media-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/notice.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/notice-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/section.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/section-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/site.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/components\/site-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/utils\/compat.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/utils\/compat-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/utils\/media.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/utils\/media-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/utils\/size.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/utils\/size-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/vendor\/font-awesome-extensions.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/vendor\/font-awesome-extensions-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/vendor\/highlight.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/vendor\/highlight-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/css\/vendor\/twitter.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/css\/vendor\/twitter-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/browser-logos.jpg": {
+		"ft": 16384,
+		"iS": 30372,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/browser-logos.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/grids.jpg": {
+		"ft": 16384,
+		"iS": 25008,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/grids.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/holy-grail.jpg": {
+		"ft": 16384,
+		"iS": 38175,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/holy-grail.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/input-add-ons.jpg": {
+		"ft": 16384,
+		"iS": 20854,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/input-add-ons.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/kitten.jpg": {
+		"ft": 16384,
+		"iS": 6404,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/kitten.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/media-object.jpg": {
+		"ft": 16384,
+		"iS": 41916,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/media-object.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/sticky-footer.jpg": {
+		"ft": 16384,
+		"iS": 24655,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/sticky-footer.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/images\/vertical-centering.jpg": {
+		"ft": 16384,
+		"iS": 33655,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/images\/vertical-centering.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/analytics.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/min\/analytics-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/polyfills.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/min\/polyfills-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/supports.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/assets\/javascript\/min\/supports-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/playground\/solved-by-flexbox\/_site\/demos\/grids.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/demos\/grids.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/demos\/holy-grail.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/demos\/holy-grail.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/demos\/input-add-ons.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/demos\/input-add-ons.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/demos\/media-object.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/demos\/media-object.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/demos\/sticky-footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/demos\/sticky-footer.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/demos\/vertical-centering.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/demos\/vertical-centering.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/min\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/index.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/LICENSE",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/npm-debug.log": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/npm-debug.log",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/playground\/solved-by-flexbox\/_site\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/templates\/default.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/templates\/default.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/templates\/footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/templates\/footer.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/templates\/head.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/templates\/head.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/templates\/header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/templates\/header.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/templates\/holy-grail.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/templates\/holy-grail.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/templates\/home.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/templates\/home.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/_site\/templates\/scripts.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/_site\/templates\/scripts.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/base\/custom-media.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/base\/custom-media-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/base\/elements.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/base\/elements-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/base\/variables.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/base\/variables-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/aligner.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/aligner-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/browser.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/browser-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/button.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/button-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/container.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/container-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/demo.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/demo-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/error.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/error-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/feature.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/feature-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/footer.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/footer-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/grid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/grid-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/header.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/header-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/holy-grail.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/holy-grail-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/image.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/image-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/input-add-on.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/input-add-on-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/media.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/media-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/notice.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/notice-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/section.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/section-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/components\/site.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/components\/site-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/utils\/compat.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/utils\/compat-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/utils\/media.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/utils\/media-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/utils\/size.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/utils\/size-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/vendor\/font-awesome-extensions.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/vendor\/font-awesome-extensions-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/vendor\/highlight.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/vendor\/highlight-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/css\/vendor\/twitter.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/css\/vendor\/twitter-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/browser-logos.jpg": {
+		"ft": 16384,
+		"iS": 30372,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/browser-logos.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/grids.jpg": {
+		"ft": 16384,
+		"iS": 25008,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/grids.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/holy-grail.jpg": {
+		"ft": 16384,
+		"iS": 38175,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/holy-grail.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/input-add-ons.jpg": {
+		"ft": 16384,
+		"iS": 20854,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/input-add-ons.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/kitten.jpg": {
+		"ft": 16384,
+		"iS": 6404,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/kitten.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/media-object.jpg": {
+		"ft": 16384,
+		"iS": 41916,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/media-object.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/sticky-footer.jpg": {
+		"ft": 16384,
+		"iS": 24655,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/sticky-footer.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/images\/vertical-centering.jpg": {
+		"ft": 16384,
+		"iS": 33655,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/images\/vertical-centering.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/playground\/solved-by-flexbox\/assets\/javascript\/analytics.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/javascript\/min\/analytics-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/javascript\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/javascript\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/javascript\/polyfills.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/javascript\/min\/polyfills-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/assets\/javascript\/supports.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/playground\/solved-by-flexbox\/assets\/javascript\/min\/supports-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/playground\/solved-by-flexbox\/config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/playground\/solved-by-flexbox\/demos\/grids.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/demos\/grids.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/demos\/holy-grail.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/demos\/holy-grail.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/demos\/input-add-ons.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/demos\/input-add-ons.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/demos\/media-object.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/demos\/media-object.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/demos\/sticky-footer.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/demos\/sticky-footer.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/demos\/vertical-centering.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/demos\/vertical-centering.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/min\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/playground\/solved-by-flexbox\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/index.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/LICENSE",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/playground\/solved-by-flexbox\/node_modules",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/npm-debug.log": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/npm-debug.log",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/playground\/solved-by-flexbox\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/playground\/solved-by-flexbox\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/playground\/solved-by-flexbox\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/playground\/solved-by-flexbox\/templates\/default.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/templates\/default.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/templates\/footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/templates\/footer.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/templates\/head.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/templates\/head.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/templates\/header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/templates\/header.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/templates\/holy-grail.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/templates\/holy-grail.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/templates\/home.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/templates\/home.html",
+		"oF": 0
+		},
+	"\/playground\/solved-by-flexbox\/templates\/scripts.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/playground\/solved-by-flexbox\/templates\/scripts.html",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 501925766,
+	"displayValue": "mass_media_dev",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-yesBaby"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', 'avoid-escape'"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

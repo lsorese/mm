@@ -1,0 +1,51 @@
+.grid__wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.base__inside--home .grid__wrap {
+	overflow: hidden !important;
+}
+.masthead {
+    overflow: hidden;
+    width: calc(100%);
+    display: flex;
+    align-items: center;
+    .brick {
+        &__h2 {
+            width: 100%;
+            display: block;
+            text-transform: uppercase;
+            font-size: 2em;
+            font-family: "Futura Light";
+            letter-spacing: .1em;
+            margin-bottom: 1em;
+            margin-top: 1em;
+        }
+        &__p {
+            width: 41%;
+            margin: 0 auto;
+            font-size: .8em;
+            line-height: 1.75em;
+            font-weight: normal;
+        }
+    }
+}
+
+.grid-item {
+    // Height controlled by JS.
+    width: calc(100% / 4);
+    background: yellow;
+    &--tall {
+    	background:red;
+    }
+    &--wide {
+    	background:blue;
+        width: calc(100% / 2);
+    }
+}

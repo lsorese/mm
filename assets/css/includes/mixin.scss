@@ -1,0 +1,115 @@
+$phone-width: 576px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+
+@mixin ultra {
+    @media (min-width: #{$desktop-width} + 1) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (max-width: #{$desktop-width}) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (max-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media (max-width: #{$phone-width}) {
+        @content;
+    }
+}
+@mixin phoneHorizontal {
+    @media (orientation:landscape) and (max-width: #{$phone-width} - 1)  {
+        @content;
+    }
+}
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+::-webkit-input-placeholder {
+    color: #333;
+}
+
+
+html {
+    height: 100%;
+    height: 100%;
+    color: hsl(0, 0%, 25%);
+    text-rendering: optimizeLegibility;
+}
+
+@include ultra {
+    html {
+        font-weight: 300;
+    }
+}
+
+body {
+    box-sizing: inherit;
+    margin: 0;
+    line-height: 100%;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: .9
+}
+
+img {
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

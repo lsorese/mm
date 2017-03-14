@@ -1,0 +1,61 @@
+.pOverlay {
+    width: 80%;
+    text-align: left;
+    padding-top: 1em;
+    &--center {
+        text-align: center;
+    }
+    &__h2 {
+        font-size: 28pt;
+        line-height: 30pt;
+        letter-spacing: 2pt;
+        font-family: "Futura Light";
+    }
+    &__h3 {
+        @extend .pOverlay__h2;
+        width: 35%;
+        margin-top: .5em;
+        font-size: 14pt;
+        line-height: 20pt;
+        letter-spacing: 1pt;
+    }
+    &__button {
+        position: relative;
+        font-family: "Futura Light";
+        display: inline-block;
+        height: 2.5em;
+        margin-top: 3em;
+        line-height: 2.5em;
+        padding: 0 2em;
+        letter-spacing: 1px;
+        border: 1px solid #fff;
+        color: #fff;
+        transition: .5s all;
+        text-transform: uppercase;
+        &--center {
+            margin: 0 auto;
+        }
+        div {
+            transition: .5s all;
+
+            display: block;
+            content: " ";
+            width: 5em;
+            position: absolute;
+            padding-left: 1em;
+            left: -1.25em;
+            height: 2.5em;
+            background-image: url('../images/SVG/BlueArrow.png');
+            background-image: url('../images/SVG/BlueArrow.svg'), linear-gradient(transparent, transparent);
+            background-position: 125% center;
+            background-size: auto 40%;
+            background-repeat: no-repeat;
+        }
+        &:hover {
+                padding: 0 1em 0 3em;
+            div {
+            background-position: 115% center;
+            }
+        }
+    }
+}
