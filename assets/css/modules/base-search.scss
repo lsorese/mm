@@ -13,6 +13,9 @@
     height: calc(100% - #{$gutter + em});
     top: #{$gutter / 2 + em};
     left: #{$gutter / 2 + em};
+    background:rgba(255,255,255,.7);
+    opacity: 0;
+    transition: 1s all;
     @include desktop {
     	font-size: 12px;
     }
@@ -29,7 +32,7 @@
     }
     &--open {
         display: flex;
-        animation: fade-in 1s;
+        opacity: 1;
     }
     &__wrap {
         width: 63%;

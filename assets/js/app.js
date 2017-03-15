@@ -60,8 +60,8 @@
         jQuery('.header__right__icon--search').on('click', function(e) {
             e.preventDefault;
             if ($('.search').hasClass('search--open') === true) {
-                $('.search').removeClass('search--open');
-                $('.scrollArrow').fadeIn();
+            $('.search').removeClass('search--open');
+            $('.scrollArrow').fadeIn();
             } else {
                 $('.scrollArrow').fadeOut();
                 $('.search').addClass('search--open');
@@ -71,7 +71,6 @@
         })
         jQuery('.search__close').on('click', function(e) {
             e.preventDefault;
-            $('.search').css({ opacity: 0 });
             $('.search').removeClass('search--open');
             $('.scrollArrow').fadeIn();
         })

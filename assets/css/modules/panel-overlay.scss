@@ -6,18 +6,18 @@
         text-align: center;
     }
     &__h2 {
-        font-size: 28pt;
-        line-height: 30pt;
-        letter-spacing: 2pt;
+        font-size: 4em;
+        line-height: 1.5em;
+        letter-spacing: 1px;
         font-family: "Futura Light";
     }
     &__h3 {
         @extend .pOverlay__h2;
         width: 35%;
-        margin-top: .5em;
-        font-size: 14pt;
-        line-height: 20pt;
-        letter-spacing: 1pt;
+        margin-top: 0em;
+        font-size: 1em;
+        line-height: 1.5em;
+        letter-spacing: 1px;
     }
     &__button {
         position: relative;

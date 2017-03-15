@@ -441,11 +441,11 @@ html {
   overflow: hidden; }
   .base__scroll {
     position: absolute;
-    right: .5rem;
+    right: .4em;
     z-index: 90000;
     text-transform: uppercase;
     font-size: 1.25em;
-    width: 3.5rem;
+    width: 3.5em;
     display: block;
     top: 60%;
     cursor: pointer; }
@@ -456,16 +456,16 @@ html {
       font-weight: normal;
       display: block;
       width: auto;
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 2em;
+      height: 2em;
       text-align: center;
-      line-height: 2.5rem;
+      line-height: 2em;
       border: 1px solid #000000;
       -webkit-transition: 1s width;
       transition: 1s width;
       overflow: hidden; }
       .base__scroll__box:hover {
-        width: 6.5rem;
+        width: 5.25em;
         padding: 0 .75em;
         text-align: left; }
         .base__scroll__box:hover span {
@@ -744,7 +744,7 @@ html {
   .hamburger .line {
     background: #929497;
     height: 1px;
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
     float: right;
     width: 100%;
     -webkit-transition: all .5s ease;
@@ -777,7 +777,7 @@ html {
   background-color: RGBA(255, 255, 255, 0.5); }
 
 .drawer--right .drawer-nav {
-  right: -22.5rem; }
+  right: -23em; }
 
 .drawer-nav {
   z-index: 1000000000;
@@ -854,7 +854,7 @@ html {
   top: -21em;
   background: white;
   width: 20em;
-  margin-left: -6.75em;
+  margin-left: -7.75em;
   margin-top: -2em;
   height: 20em;
   padding: 1.5em 1em;
@@ -918,7 +918,11 @@ html {
   width: calc(100% - 7em);
   height: calc(100% - 7em);
   top: 3.5em;
-  left: 3.5em; }
+  left: 3.5em;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  -webkit-transition: 1s all;
+  transition: 1s all; }
   @media (max-width: 1024px) {
     .search {
       font-size: 12px; } }
@@ -937,8 +941,7 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-animation: fade-in 1s;
-            animation: fade-in 1s; }
+    opacity: 1; }
   .search__wrap {
     width: 63%;
     display: block;
@@ -996,16 +999,16 @@ html {
   .pOverlay--center {
     text-align: center; }
   .pOverlay__h2, .pOverlay__h3 {
-    font-size: 28pt;
-    line-height: 30pt;
-    letter-spacing: 2pt;
+    font-size: 4em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
     font-family: "Futura Light"; }
   .pOverlay__h3 {
     width: 35%;
-    margin-top: .5em;
-    font-size: 14pt;
-    line-height: 20pt;
-    letter-spacing: 1pt; }
+    margin-top: 0em;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 1px; }
   .pOverlay__button {
     position: relative;
     font-family: "Futura Light";
