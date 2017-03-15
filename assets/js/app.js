@@ -12,14 +12,12 @@
                 $('.bullet[data-index="' + swiper.activeIndex + '"]').addClass('active');
             },
             paginationBulletRender: function(swiper, index, className) {
-                return '<div class="bullet" data-name="' + data[index] + '" data-index="' + index + '"><span class="bullet__one"></span><span class="bullet__name"></span><span class="bullet__two" data-name="name"></span></div>';
+                return '<div class="bullet" data-name="' + data[index] + '" data-index="' + index + '"><span class="bullet__one"></span><span class="bullet__two"></span><span class="bullet__name">'+data[index]+'</span></div>';
+
             }
         });
         $('.bullet[data-index="0"]').addClass("active");
 
-        $('.bullet').each(function(el) {
-            $(this).children('.bullet__name').html($(this).data('name'));
-        });
 
         $('.bullet').on('click', function() {
             swiper.slideTo($(this).attr('data-index'), 300);
@@ -60,12 +58,12 @@
         })
 
         jQuery('.header__right__icon--search').on('click', function(e) {
-                e.preventDefault;
+            e.preventDefault;
             if ($('.search').hasClass('search--open') === true) {
                 $('.search').removeClass('search--open');
-                $('.scrollArrow').fadeOut();
-            } else {
                 $('.scrollArrow').fadeIn();
+            } else {
+                $('.scrollArrow').fadeOut();
                 $('.search').addClass('search--open');
 
             }
@@ -98,7 +96,4 @@
         })
         $('.masthead, .grid-item').height($('.base__inside').height() / 2);
         $('.grid-item--tall, .grid__wrap, .search').height($('.base__inside').height());
-        $(document).keyup(function(e) {
-            if (e.keyCode == 27) {}
-        });
     });
