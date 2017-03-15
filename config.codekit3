@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25704",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/assets\/css\/.sass-cache\/83e2ba6a413dd8d6e633a7e97694b95bcc6acd71\/index2.scssc": {
 		"ft": 8192,
 		"oA": 2,
@@ -225,6 +231,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/css\/base-nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/base-search.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base-search.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -735,11 +754,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/images\/SVG\/search.svg": {
+	"\/assets\/images\/SVG\/Search.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/images\/SVG\/search.svg",
+		"oAP": "\/assets\/images\/SVG\/Search.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -5693,7 +5712,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 501925766,
-	"displayValue": "mass_media_dev",
+	"displayValue": "mm",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby"
 	},

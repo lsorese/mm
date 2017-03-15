@@ -40,12 +40,9 @@
 .grid-item {
     // Height controlled by JS.
     width: calc(100% / 4);
-    background: yellow;
     &--tall {
-    	background:red;
     }
     &--wide {
-    	background:blue;
         width: calc(100% / 2);
     }
 }

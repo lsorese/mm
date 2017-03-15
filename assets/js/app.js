@@ -59,6 +59,31 @@
             $('.hamburger').addClass('hamburger--open');
         })
 
+        jQuery('.header__right__icon--search').on('click', function(e) {
+                e.preventDefault;
+            if ($('.search').hasClass('search--open') === true) {
+                $('.search').removeClass('search--open');
+                $('.scrollArrow').fadeOut();
+            } else {
+                $('.scrollArrow').fadeIn();
+                $('.search').addClass('search--open');
+
+            }
+
+        })
+        jQuery('.search__close').on('click', function(e) {
+            e.preventDefault;
+            $('.search').css({ opacity: 0 });
+            $('.search').removeClass('search--open');
+            $('.scrollArrow').fadeIn();
+        })
+
+        $('.grid').isotope({
+            // options
+            itemSelector: '.grid-item',
+            layoutMode: 'masonry'
+        });
+
         $('.drawer').drawer();
         $('.drawer').on('drawer.opened', function() {
             $('.hamburger').addClass('hamburger--open');
@@ -66,15 +91,14 @@
         $('.drawer').on('drawer.closed', function() {
             $('.hamburger').removeClass('hamburger--open');
         });
-        $('.masthead').height($('.base__inside').height() / 2);
-        $('.grid__wrap').height($('.base__inside').height());
 
-        $('.grid-item').height($('.base__inside').height() / 2);
-        $('.grid-item--tall').height($('.base__inside').height());
-
-        $('.grid').isotope({
-            // options
-            itemSelector: '.grid-item',
-            layoutMode: 'masonry'
+        $(window).resize(function() {
+            $('.masthead, .grid-item').height($('.base__inside').height() / 2);
+            $('.grid-item--tall, .grid__wrap, .search').height($('.base__inside').height());
+        })
+        $('.masthead, .grid-item').height($('.base__inside').height() / 2);
+        $('.grid-item--tall, .grid__wrap, .search').height($('.base__inside').height());
+        $(document).keyup(function(e) {
+            if (e.keyCode == 27) {}
         });
     });
