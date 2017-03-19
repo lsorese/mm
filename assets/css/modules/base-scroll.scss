@@ -1,0 +1,22 @@
+.scrollArea {
+    overflow: hidden;
+    overflow-y: scroll;
+    background:white;
+    &--viewport {
+        overflow: visible;
+        padding-right: 0em;
+        clear: both;
+    }
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+
+::-webkit-scrollbar {
+    width: .25em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #939598;
+}

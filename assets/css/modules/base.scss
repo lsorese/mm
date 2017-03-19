@@ -55,8 +55,9 @@ html {
         left: #{$gutter / 2 + em};
         background: #BBBDBF;
         text-align: center;
+        overflow: hidden;
         &--sub {
-            overflow: scroll;
+            overflow: hidden;
         }
     }
     &__pagination {

@@ -1,0 +1,208 @@
+.blog {
+    text-align: left;
+    &__nav {
+        height: 3.25em;
+        background: white;
+        border-bottom: 1px solid #E6E6E6;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            li {
+                display: block;
+                height: 3.25em;
+                line-height: 3.25em;
+                text-transform: uppercase;
+                font: $futuraDemi .85em $futura;
+                a {
+                    line-height: 3.25em;
+                    display: block;
+                    padding: 0 4em;
+                    &.active {
+                        color: $darkGrey;
+                    }
+                    &.notActive {
+                        color: $grey;
+                    }
+                }
+            }
+        }
+    }
+    &__article {
+        width: 58em;
+        margin: 2.5em auto;
+    }
+}
+
+.blogItem {
+    display: block;
+    padding: 2em 1em;
+    height: 100%;
+    text-align: left;
+    &__image {
+        padding-bottom: 75%;
+        background: #f0f0f0;
+        margin-top: 1.25em;
+        border-bottom: .5em solid $navy;
+    }
+    &__h4 {
+        font: $futuraLight 1em $futura;
+        margin-top: .75em;
+    }
+    &__h3 {
+        font: 2.85em $bebas;
+        line-height: 1em;
+    }
+    &__p {
+        margin-top: .5em;
+        font: $futuraLight 1em $futura;
+    }
+    &--social {
+        .blogItem__image {
+            border-color: $navy;
+        }
+    }
+    &--tech {
+        .blogItem__image {
+            border-color: $cyan;
+        }
+    }
+    &--culture {
+        .blogItem__image {
+            border-color: $pink;
+        }
+    }
+    &--guides {
+        .blogItem__image {
+            border-color: $orange;
+        }
+    }
+    &--arts {
+        .blogItem__image {
+            border-color: $yellow;
+        }
+    }
+}
+
+.blogArticle {
+    position: relative;
+    transform: translateZ(0);
+    min-height: 20em;
+    &__copy {
+        min-height: 10em;
+        margin-right: 14em;
+    }
+    &__sidebar {
+        right: 0;
+        top: 0;
+        position: fixed;
+        width: 14em;
+        height: 50em;
+        text-align: left;
+        margin-top: 1em;
+        &__h4 {
+            font: 1.75em $bebas;
+            letter-spacing: .1em;
+            border-bottom: 1px solid #E6E6E6;
+        }
+        &__item {
+            display: block;
+            position: relative;
+            padding: .6em 0;
+            clear: both;
+            &__image {
+                width: 5em;
+                height: 5em;
+                float: left;
+                background: #ccc;
+                border: 1px solid #999;
+                margin-right: .5em;
+            }
+            &__title {
+                font: 1.05em $bebas;
+                line-height: 1.25em;
+                letter-spacing: .05em;
+            }
+            &__cat {
+                font: $futuraLight .75em $futura;
+                line-height: 1.25em;
+            }
+        }
+    }
+}
+
+.blogCopy {
+    width: 39.5em;
+    height: 20em;
+    &__image {
+        background: #ccc;
+        border: 1px solid #999;
+        width: 100%;
+        min-height: 31em;
+        margin-bottom: .75em;
+    }
+    &__cat {
+        font: $futuraLight 1em $futura
+    }
+    &__title {
+        font: 2.85em $bebas;
+        line-height: 1em;
+    }
+    &__copy {
+        font: $futuraLight 1em $futura;
+        color: $darkGrey;
+        p {
+            display: block;
+            margin-top: .75em;
+        }
+        p + p {
+            text-indent: 0;
+        }
+    }
+    &__social {
+        border-bottom: 1px solid #E6E6E6;
+        padding-bottom: 2em;
+        &--loop {
+            margin-top: 1em;
+            display: inline-block;
+            line-height: 2em;
+            font: $futuraLight .85em $futura;
+            border: 1px solid #e0e0e0;
+            padding: .25em 1em;
+            border-radius: 1em;
+        }
+    }
+    &__share {
+		padding-top: 1.5em;
+        &__h4 {
+
+            font: 1.15em $bebas;
+            text-transform: uppercase;
+            margin-bottom: 1em;
+        }
+        &__icons {
+            &__icon {
+            	display: inline-block;
+            	width:1em;
+            	height:1em;
+            	margin-right: 1em;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+                &--facebook {
+                    background-image: url('../images/SVG/Facebook.png');
+                    background-image: url('../images/SVG/Facebook.svg'), linear-gradient(transparent, transparent);
+                }
+                &--envelope {
+                    background-image: url('../images/SVG/Envelope.png');
+                    background-image: url('../images/SVG/Envelope.svg'), linear-gradient(transparent, transparent);
+                }
+                &--twitter {
+                    background-image: url('../images/SVG/Twitter.png');
+                    background-image: url('../images/SVG/Twitter.svg'), linear-gradient(transparent, transparent);
+                }
+            }
+        }
+    }
+}

@@ -5,12 +5,9 @@
     width: 100%;
     min-height: 100%;
     overflow: hidden;
-    overflow-y: scroll;
+
 }
 
-.base__inside--home .grid__wrap {
-    overflow: hidden !important;
-}
 
 .masthead {
     overflow: hidden;
@@ -72,5 +69,10 @@
             color: #fff;
             padding: 0 1em 1em 1em;
         }
+    }
+    &--blog {
+        width: calc(100% / 3);
+        padding: 2em 0;
+        height:auto !important;
     }
 }

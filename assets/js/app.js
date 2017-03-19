@@ -10,7 +10,7 @@
             onSlideChangeEnd: function(swiper) {
                 $('.bullet').removeClass('active');
                 $('.bullet[data-index="' + swiper.activeIndex + '"]').addClass('active');
-                if(swiper.activeIndex > 0) {
+                if (swiper.activeIndex > 0) {
                     $('.scrollArrow').fadeOut();
                 } else {
                     $('.scrollArrow').fadeIn();
@@ -86,22 +86,33 @@
             $(this).css('background-image', 'url(' + no + ')');
             $(this).on({
                 mouseenter: function() {
-                $(this).css('background-image', 'url(' + yes + ')');
+                    $(this).css('background-image', 'url(' + yes + ')');
 
-            }, mouseleave: function() {
-                $(this).css('background-image', 'url(' + no + ')');
+                },
+                mouseleave: function() {
+                    $(this).css('background-image', 'url(' + no + ')');
 
-            }})
+                }
+            })
 
         });
 
 
 
-        $('.grid').isotope({
+        var $grid = $('.grid').isotope({
             // options
             itemSelector: '.grid--item',
-            layoutMode: 'masonry'
+            layoutMode: 'masonry',
+            cat: '[data-category]'
         });
+
+        jQuery('.blog__nav--click').on('click',function(){
+            $grid.isotope({ filter: '.blogItem--' + $(this).data('category') })
+            jQuery('.blog__nav--click').removeClass('active');
+            jQuery('.blog__nav--click').addClass('notActive');
+            $(this).addClass('active').removeClass('notActive');
+        })
+
 
         $('.drawer').drawer();
         $('.drawer').on('drawer.opened', function() {
@@ -113,8 +124,10 @@
 
         $(window).resize(function() {
             $('.masthead, .grid--item').height($('.base__inside').height() / 2);
-            $('.grid-item--tall, .grid__wrap, .search').height($('.base__inside').height());
+            $('.grid-item--tall, .grid__wrap, .search, .scrollArea').height($('.base__inside').height());
         })
         $('.masthead, .grid--item').height($('.base__inside').height() / 2);
-        $('.grid-item--tall, .grid__wrap, .search').height($('.base__inside').height());
+        $('.grid-item--tall, .grid__wrap, .search, .scrollArea').height($('.base__inside').height());
+
+
     });

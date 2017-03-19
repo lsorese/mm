@@ -38,6 +38,8 @@
     "animsition": "^4.0.2",
     "drawer": "^3.2.1",
     "iscroll": "~5.1.3",
-    "animate.css": "^3.5.2"
+    "animate.css": "^3.5.2",
+    "tinyscrollbar": "TinyScrollbar#^2.5.0",
+    "jquery-slimscroll": "^1.3.8"
   }
 }

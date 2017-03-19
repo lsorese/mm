@@ -422,9 +422,10 @@ html {
     top: 3.5em;
     left: 3.5em;
     background: #BBBDBF;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
     .base__inside--sub {
-      overflow: scroll; }
+      overflow: hidden; }
   .base__pagination {
     background: white;
     position: absolute;
@@ -499,17 +500,31 @@ html {
     .scrollArrow:hover div {
       background-position: 105% center; }
 
+.scrollArea {
+  overflow: hidden;
+  overflow-y: scroll;
+  background: white; }
+  .scrollArea--viewport {
+    overflow: visible;
+    padding-right: 0em;
+    clear: both; }
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; }
+
+::-webkit-scrollbar {
+  width: .25em; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #939598; }
+
 .grid__wrap {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 100%;
-  overflow: hidden;
-  overflow-y: scroll; }
-
-.base__inside--home .grid__wrap {
-  overflow: hidden !important; }
+  overflow: hidden; }
 
 .masthead {
   overflow: hidden;
@@ -559,6 +574,10 @@ html {
       margin: 0;
       color: #fff;
       padding: 0 1em 1em 1em; }
+  .grid--item--blog {
+    width: calc(100% / 3);
+    padding: 2em 0;
+    height: auto !important; }
 
 .bullet {
   cursor: pointer;
@@ -946,3 +965,157 @@ html {
       padding: 0 1em 0 3em; }
       .pOverlay__button:hover div {
         background-position: 115% center; }
+
+.blog {
+  text-align: left; }
+  .blog__nav {
+    height: 3.25em;
+    background: white;
+    border-bottom: 1px solid #E6E6E6; }
+    .blog__nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .blog__nav ul li {
+        display: block;
+        height: 3.25em;
+        line-height: 3.25em;
+        text-transform: uppercase;
+        font: 600 0.85em "futura-pt", futura, trebuchet, sans-serif; }
+        .blog__nav ul li a {
+          line-height: 3.25em;
+          display: block;
+          padding: 0 4em; }
+          .blog__nav ul li a.active {
+            color: #231f20; }
+          .blog__nav ul li a.notActive {
+            color: #939598; }
+  .blog__article {
+    width: 58em;
+    margin: 2.5em auto; }
+
+.blogItem {
+  display: block;
+  padding: 2em 1em;
+  height: 100%;
+  text-align: left; }
+  .blogItem__image {
+    padding-bottom: 75%;
+    background: #f0f0f0;
+    margin-top: 1.25em;
+    border-bottom: 0.5em solid #003767; }
+  .blogItem__h4 {
+    font: 300 1em "futura-pt", futura, trebuchet, sans-serif;
+    margin-top: .75em; }
+  .blogItem__h3 {
+    font: 2.85em "Bebas Neue Bold", Helvetica, Arial;
+    line-height: 1em; }
+  .blogItem__p {
+    margin-top: .5em;
+    font: 300 1em "futura-pt", futura, trebuchet, sans-serif; }
+  .blogItem--social .blogItem__image {
+    border-color: #003767; }
+  .blogItem--tech .blogItem__image {
+    border-color: #00aeef; }
+  .blogItem--culture .blogItem__image {
+    border-color: #e64097; }
+  .blogItem--guides .blogItem__image {
+    border-color: #f78e1e; }
+  .blogItem--arts .blogItem__image {
+    border-color: #ffef00; }
+
+.blogArticle {
+  position: relative;
+  transform: translateZ(0);
+  min-height: 20em; }
+  .blogArticle__copy {
+    min-height: 10em;
+    margin-right: 14em; }
+  .blogArticle__sidebar {
+    right: 0;
+    top: 0;
+    position: fixed;
+    width: 14em;
+    height: 50em;
+    text-align: left;
+    margin-top: 1em; }
+    .blogArticle__sidebar__h4 {
+      font: 1.75em "Bebas Neue Bold", Helvetica, Arial;
+      letter-spacing: .1em;
+      border-bottom: 1px solid #E6E6E6; }
+    .blogArticle__sidebar__item {
+      display: block;
+      position: relative;
+      padding: .6em 0;
+      clear: both; }
+      .blogArticle__sidebar__item__image {
+        width: 5em;
+        height: 5em;
+        float: left;
+        background: #ccc;
+        border: 1px solid #999;
+        margin-right: .5em; }
+      .blogArticle__sidebar__item__title {
+        font: 1.05em "Bebas Neue Bold", Helvetica, Arial;
+        line-height: 1.25em;
+        letter-spacing: .05em; }
+      .blogArticle__sidebar__item__cat {
+        font: 300 0.75em "futura-pt", futura, trebuchet, sans-serif;
+        line-height: 1.25em; }
+
+.blogCopy {
+  width: 39.5em;
+  height: 20em; }
+  .blogCopy__image {
+    background: #ccc;
+    border: 1px solid #999;
+    width: 100%;
+    min-height: 31em;
+    margin-bottom: .75em; }
+  .blogCopy__cat {
+    font: 300 1em "futura-pt", futura, trebuchet, sans-serif; }
+  .blogCopy__title {
+    font: 2.85em "Bebas Neue Bold", Helvetica, Arial;
+    line-height: 1em; }
+  .blogCopy__copy {
+    font: 300 1em "futura-pt", futura, trebuchet, sans-serif;
+    color: #231f20; }
+    .blogCopy__copy p {
+      display: block;
+      margin-top: .75em; }
+    .blogCopy__copy p + p {
+      text-indent: 0; }
+  .blogCopy__social {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 2em; }
+    .blogCopy__social--loop {
+      margin-top: 1em;
+      display: inline-block;
+      line-height: 2em;
+      font: 300 0.85em "futura-pt", futura, trebuchet, sans-serif;
+      border: 1px solid #e0e0e0;
+      padding: .25em 1em;
+      border-radius: 1em; }
+  .blogCopy__share {
+    padding-top: 1.5em; }
+    .blogCopy__share__h4 {
+      font: 1.15em "Bebas Neue Bold", Helvetica, Arial;
+      text-transform: uppercase;
+      margin-bottom: 1em; }
+    .blogCopy__share__icons__icon {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      margin-right: 1em;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center; }
+      .blogCopy__share__icons__icon--facebook {
+        background-image: url("../images/SVG/Facebook.png");
+        background-image: url("../images/SVG/Facebook.svg"), linear-gradient(transparent, transparent); }
+      .blogCopy__share__icons__icon--envelope {
+        background-image: url("../images/SVG/Envelope.png");
+        background-image: url("../images/SVG/Envelope.svg"), linear-gradient(transparent, transparent); }
+      .blogCopy__share__icons__icon--twitter {
+        background-image: url("../images/SVG/Twitter.png");
+        background-image: url("../images/SVG/Twitter.svg"), linear-gradient(transparent, transparent); }
