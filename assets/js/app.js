@@ -10,9 +10,14 @@
             onSlideChangeEnd: function(swiper) {
                 $('.bullet').removeClass('active');
                 $('.bullet[data-index="' + swiper.activeIndex + '"]').addClass('active');
+                if(swiper.activeIndex > 0) {
+                    $('.scrollArrow').fadeOut();
+                } else {
+                    $('.scrollArrow').fadeIn();
+                }
             },
             paginationBulletRender: function(swiper, index, className) {
-                return '<div class="bullet" data-name="' + data[index] + '" data-index="' + index + '"><span class="bullet__one"></span><span class="bullet__two"></span><span class="bullet__name">'+data[index]+'</span></div>';
+                return '<div class="bullet" data-name="' + data[index] + '" data-index="' + index + '"><span class="bullet__one"></span><span class="bullet__two"></span><span class="bullet__name">' + data[index] + '</span></div>';
 
             }
         });
@@ -60,8 +65,8 @@
         jQuery('.header__right__icon--search').on('click', function(e) {
             e.preventDefault;
             if ($('.search').hasClass('search--open') === true) {
-            $('.search').removeClass('search--open');
-            $('.scrollArrow').fadeIn();
+                $('.search').removeClass('search--open');
+                $('.scrollArrow').fadeIn();
             } else {
                 $('.scrollArrow').fadeOut();
                 $('.search').addClass('search--open');
@@ -75,9 +80,26 @@
             $('.scrollArrow').fadeIn();
         })
 
+        jQuery(".imageHover").each(function(index, el) {
+            var no = $(this).data('no');
+            var yes = $(this).data('yes');
+            $(this).css('background-image', 'url(' + no + ')');
+            $(this).on({
+                mouseenter: function() {
+                $(this).css('background-image', 'url(' + yes + ')');
+
+            }, mouseleave: function() {
+                $(this).css('background-image', 'url(' + no + ')');
+
+            }})
+
+        });
+
+
+
         $('.grid').isotope({
             // options
-            itemSelector: '.grid-item',
+            itemSelector: '.grid--item',
             layoutMode: 'masonry'
         });
 
@@ -90,9 +112,9 @@
         });
 
         $(window).resize(function() {
-            $('.masthead, .grid-item').height($('.base__inside').height() / 2);
+            $('.masthead, .grid--item').height($('.base__inside').height() / 2);
             $('.grid-item--tall, .grid__wrap, .search').height($('.base__inside').height());
         })
-        $('.masthead, .grid-item').height($('.base__inside').height() / 2);
+        $('.masthead, .grid--item').height($('.base__inside').height() / 2);
         $('.grid-item--tall, .grid__wrap, .search').height($('.base__inside').height());
     });

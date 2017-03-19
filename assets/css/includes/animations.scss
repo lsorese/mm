@@ -1,4 +1,3 @@
-
 @keyframes fade-in-left {
     0% {
         -webkit-transform: translateX(-50px);
@@ -11,7 +10,6 @@
         opacity: 1;
     }
 }
-
 
 @keyframes fade-in-top {
     0% {
@@ -26,10 +24,8 @@
     }
 }
 
-
 @keyframes fade-in {
     0% {
-
         opacity: 0;
     }
     100% {
@@ -37,3 +33,20 @@
     }
 }
 
+@keyframes arrow {
+    0% {
+        transform: translateY(0) rotate(-90deg);
+    }
+    40% {
+        transform: translateY(0) rotate(-90deg);
+    }
+    45% {
+        transform: translateY(-.5rem) rotate(-90deg);
+    }
+    50% {
+        transform: translateY(-.5rem) rotate(-90deg);
+    }
+    100% {
+        transform: translateY(0rem) rotate(-90deg);
+    }
+}

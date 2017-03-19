@@ -40,6 +40,7 @@ html {
 
 body {
   -webkit-hyphens: auto;
+  -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
   color: #444; }
@@ -99,6 +100,7 @@ q,
 samp,
 var {
   -webkit-hyphens: none;
+  -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none; }
 
@@ -327,81 +329,15 @@ img {
   border: 0; }
 
 @font-face {
-  font-family: 'Bebas Neue Regular';
-  src: url("../fonts/BebasNeue-webfont.eot");
-  src: url("../fonts/BebasNeue-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue-webfont.woff") format("woff"), url("../fonts/BebasNeue-webfont.ttf") format("truetype"), url("../fonts/BebasNeue-webfont.svg#bebas_neueregular") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Bebas Regular';
-  src: url("../fonts/BEBAS___-webfont.eot");
-  src: url("../fonts/BEBAS___-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BEBAS___-webfont.woff") format("woff"), url("../fonts/BEBAS___-webfont.ttf") format("truetype"), url("../fonts/BEBAS___-webfont.svg#BebasRegular") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Light Italic';
-  src: url("../fonts/Futura-Light-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Light-Italic.woff") format("woff"), url("../fonts/Futura-Light-Italic.ttf") format("truetype"), url("../fonts/Futura-Light-Italic.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Bold Italic';
-  src: url("../fonts/Futura-Bold-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Bold-Italic.woff") format("woff"), url("../fonts/Futura-Bold-Italic.ttf") format("truetype"), url("../fonts/Futura-Bold-Italic.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Bold';
-  src: url("../fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Bold.woff") format("woff"), url("../fonts/Futura-Bold.ttf") format("truetype"), url("../fonts/Futura-Bold.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Book Italic';
-  src: url("../fonts/Futura-Book-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Book-Italic.woff") format("woff"), url("../fonts/Futura-Book-Italic.ttf") format("truetype"), url("../fonts/Futura-Book-Italic.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Book';
-  src: url("../fonts/Futura-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Book.woff") format("woff"), url("../fonts/Futura-Book.ttf") format("truetype"), url("../fonts/Futura-Book.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Light';
-  src: url("../fonts/Futura-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Light.woff") format("woff"), url("../fonts/Futura-Light.ttf") format("truetype"), url("../fonts/Futura-Light.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Medium Italic';
-  src: url("../fonts/Futura-Medium-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Medium-Italic.woff") format("woff"), url("../fonts/Futura-Medium-Italic.ttf") format("truetype"), url("../fonts/Futura-Medium-Italic.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Futura Medium';
-  src: url("../fonts/Futura-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Medium.woff") format("woff"), url("../fonts/Futura-Medium.ttf") format("truetype"), url("../fonts/Futura-Medium.svg#webfont") format("svg");
-  font-weight: normal; }
-
-@-webkit-keyframes fade-in-left {
-  0% {
-    -webkit-transform: translateX(-50px);
-    transform: translateX(-50px);
-    opacity: 0; }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1; } }
+  font-family: 'Bebas Neue Bold';
+  src: url("../fonts/bebasneue_bold-webfont.woff2") format("woff2"), url("../fonts/bebasneue_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
 @keyframes fade-in-left {
   0% {
     -webkit-transform: translateX(-50px);
     transform: translateX(-50px);
-    opacity: 0; }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1; } }
-
-@-webkit-keyframes fade-in-top {
-  0% {
-    -webkit-transform: translateY(-2rem);
-    transform: translateY(-2rem);
     opacity: 0; }
   100% {
     -webkit-transform: translateX(0);
@@ -418,20 +354,26 @@ img {
     transform: translateX(0);
     opacity: 1; } }
 
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
 @keyframes fade-in {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
 
+@keyframes arrow {
+  0% {
+    transform: translateY(0) rotate(-90deg); }
+  40% {
+    transform: translateY(0) rotate(-90deg); }
+  45% {
+    transform: translateY(-0.5rem) rotate(-90deg); }
+  50% {
+    transform: translateY(-0.5rem) rotate(-90deg); }
+  100% {
+    transform: translateY(0rem) rotate(-90deg); } }
+
 html {
-  font: 400 16px "Futura Medium", sans-serif; }
+  font: 500 16px "futura-pt", futura, trebuchet, sans-serif; }
 
 .base {
   position: absolute;
@@ -444,7 +386,6 @@ html {
     right: .4em;
     z-index: 90000;
     text-transform: uppercase;
-    font-size: 1.25em;
     width: 3.5em;
     display: block;
     top: 60%;
@@ -453,7 +394,7 @@ html {
       background: white;
       float: right;
       white-space: nowrap;
-      font-weight: normal;
+      font: 700 1.25em "proxima-nova", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
       display: block;
       width: auto;
       width: 2em;
@@ -461,7 +402,6 @@ html {
       text-align: center;
       line-height: 2em;
       border: 1px solid #000000;
-      -webkit-transition: 1s width;
       transition: 1s width;
       overflow: hidden; }
       .base__scroll__box:hover {
@@ -470,8 +410,7 @@ html {
         text-align: left; }
         .base__scroll__box:hover span {
           display: inline;
-          -webkit-animation: fadeInLoad 5s;
-                  animation: fadeInLoad 5s;
+          animation: fadeInLoad 5s;
           opacity: 1; }
     .base__scroll span {
       display: none;
@@ -495,15 +434,9 @@ html {
     width: 3.5em;
     padding: 0;
     margin: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    align-items: center;
+    justify-content: center; }
   .base__section {
     width: 100%;
     position: absolute;
@@ -520,15 +453,9 @@ html {
 .swiper-slide {
   text-align: center;
   background: #BBBDBF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: center;
+  align-items: center; }
 
 .scrollArrow {
   position: relative;
@@ -540,8 +467,7 @@ html {
   margin-left: -4.5em;
   z-index: 1000;
   bottom: 6em;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg); }
+  animation: arrow 3s infinite; }
   .scrollArrow span {
     display: block;
     position: absolute;
@@ -554,10 +480,8 @@ html {
     color: white;
     letter-spacing: 1px; }
   .scrollArrow div {
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
     left: 0;
-    -webkit-transition: .5s all;
     transition: .5s all;
     display: block;
     content: " ";
@@ -566,7 +490,6 @@ html {
     right: 0;
     height: 4em;
     background-image: url("../images/SVG/BlueArrow.png");
-    background-image: url("../images/SVG/BlueArrow.svg"), -webkit-linear-gradient(transparent, transparent);
     background-image: url("../images/SVG/BlueArrow.svg"), linear-gradient(transparent, transparent);
     background-position: 115% center;
     background-size: auto 25%;
@@ -591,32 +514,51 @@ html {
 .masthead {
   overflow: hidden;
   width: calc(100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .masthead .brick__h2 {
     width: 100%;
     display: block;
     text-transform: uppercase;
-    font-size: 2em;
-    font-family: "Futura Light";
+    font: 300 2em "futura-pt", futura, trebuchet, sans-serif;
     letter-spacing: .1em;
-    margin-bottom: 1em;
-    margin-top: 1em; }
+    margin-bottom: .5em;
+    margin-top: .75em; }
   .masthead .brick__p {
     width: 41%;
     margin: 0 auto;
-    font-size: .8em;
-    line-height: 1.75em;
-    font-weight: normal; }
+    font: 500 0.8em "futura-pt", futura, trebuchet, sans-serif;
+    line-height: 1.75em; }
 
-.grid-item {
+.grid--item {
   width: calc(100% / 4); }
-  .grid-item--wide {
+  .grid--item--wide {
     width: calc(100% / 2); }
+  .grid--item__wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%; }
+  .grid--item--style1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+    .grid--item--style1__h3 {
+      text-align: left;
+      display: block;
+      text-transform: uppercase;
+      font: 2.85em "Bebas Neue Bold", Helvetica, Arial;
+      margin-top: auto;
+      color: #fff;
+      padding: 0 0.3em; }
+    .grid--item--style1__h4 {
+      text-align: left;
+      display: block;
+      text-transform: uppercase;
+      font: 300 0.85em "futura-pt", futura, trebuchet, sans-serif;
+      margin: 0;
+      color: #fff;
+      padding: 0 1em 1em 1em; }
 
 .bullet {
   cursor: pointer;
@@ -624,7 +566,7 @@ html {
   width: 1.75em;
   float: right;
   height: .75em;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 2em;
   text-align: center;
   position: relative;
@@ -644,14 +586,12 @@ html {
     margin: 0;
     margin-left: -.25em;
     margin-top: .5em;
-    -webkit-transition: width .1s, height .1s, margin .1s, border-radius .1s;
     transition: width .1s, height .1s, margin .1s, border-radius .1s; }
   .bullet__two {
     height: 1px;
     width: 0;
     float: right;
     margin-right: .85em;
-    -webkit-transition: width .5s;
     transition: width .5s;
     top: 0em;
     margin: 0; }
@@ -665,7 +605,6 @@ html {
     text-transform: uppercase;
     width: 6em;
     text-align: right;
-    -webkit-transition: all .5s;
     transition: all .5s;
     top: 0;
     right: 0;
@@ -699,7 +638,6 @@ html {
     width: 40%;
     margin: 0 auto;
     background-image: url("../images/SVG/Logo.png");
-    background-image: url("../images/SVG/Logo.svg"), -webkit-linear-gradient(transparent, transparent);
     background-image: url("../images/SVG/Logo.svg"), linear-gradient(transparent, transparent);
     background-size: auto 58%;
     background-repeat: no-repeat;
@@ -721,7 +659,6 @@ html {
         background-repeat: no-repeat;
         background-position: 50% 52%;
         background-image: url("../images/SVG/Search.png");
-        background-image: url("../images/SVG/Search.svg"), -webkit-linear-gradient(transparent, transparent);
         background-image: url("../images/SVG/Search.svg"), linear-gradient(transparent, transparent); }
 
 .hamburger {
@@ -747,10 +684,8 @@ html {
     margin-bottom: .5em;
     float: right;
     width: 100%;
-    -webkit-transition: all .5s ease;
     transition: all .5s ease;
-    -webkit-transform: translate(0.25em, 1.25em);
-            transform: translate(0.25em, 1.25em); }
+    transform: translate(0.25em, 1.25em); }
     .hamburger .line--two {
       width: 80%; }
   .hamburger:hover .line--one,
@@ -767,11 +702,9 @@ html {
   .hamburger.hamburger--open .line--three {
     top: 0; }
   .hamburger.hamburger--open .line--one {
-    -webkit-transform: rotate(45deg) translate(1.2em, 1.25em);
-            transform: rotate(45deg) translate(1.2em, 1.25em); }
+    transform: rotate(45deg) translate(1.2em, 1.25em); }
   .hamburger.hamburger--open .line--three {
-    -webkit-transform: rotate(-45deg) translate(-1.15em, 1.1em);
-            transform: rotate(-45deg) translate(-1.15em, 1.1em); }
+    transform: rotate(-45deg) translate(-1.15em, 1.1em); }
 
 .drawer-overlay {
   background-color: RGBA(255, 255, 255, 0.5); }
@@ -794,8 +727,7 @@ html {
       text-transform: uppercase;
       letter-spacing: 2px; }
       .drawer-nav ul li a {
-        font-family: "Futura Medium";
-        font-size: 1em;
+        font: 500 1em "futura-pt", futura, trebuchet, sans-serif;
         color: #939598; }
 
 .footer {
@@ -808,8 +740,8 @@ html {
   overflow: visible; }
   .footer__newsletter, .footer__legal {
     height: 4.6666666667em;
-    line-height: 4.6666666667em;
     font-size: .75em;
+    line-height: 4.6666666667em;
     text-align: left;
     color: #939598;
     float: left; }
@@ -817,10 +749,12 @@ html {
     cursor: pointer;
     position: relative;
     float: right;
-    overflow: visible; }
-    .footer__newsletter:hover .newsletterBox {
-      opacity: 1;
-      margin-top: 0; }
+    overflow: hidden; }
+    .footer__newsletter:hover {
+      overflow: visible; }
+      .footer__newsletter:hover .newsletterBox {
+        opacity: 1;
+        margin-top: 0; }
   .footer__social {
     float: right; }
     .footer__social__icon {
@@ -830,36 +764,33 @@ html {
       width: 2.6em;
       float: left;
       background-image: url("../images/SVG/Facebook.png");
-      background-image: url("../images/SVG/Facebook.svg"), -webkit-linear-gradient(transparent, transparent);
       background-image: url("../images/SVG/Facebook.svg"), linear-gradient(transparent, transparent);
       background-size: auto 25%;
       background-repeat: no-repeat;
       background-position: center right; }
       .footer__social__icon--instagram {
         background-image: url("../images/SVG/Instagram.png");
-        background-image: url("../images/SVG/Instagram.svg"), -webkit-linear-gradient(transparent, transparent);
         background-image: url("../images/SVG/Instagram.svg"), linear-gradient(transparent, transparent); }
       .footer__social__icon--linkedin {
         background-image: url("../images/SVG/Linkedin.png");
-        background-image: url("../images/SVG/Linkedin.svg"), -webkit-linear-gradient(transparent, transparent);
         background-image: url("../images/SVG/Linkedin.svg"), linear-gradient(transparent, transparent); }
       .footer__social__icon--twitter {
         background-image: url("../images/SVG/Twitter.png");
-        background-image: url("../images/SVG/Twitter.svg"), -webkit-linear-gradient(transparent, transparent);
         background-image: url("../images/SVG/Twitter.svg"), linear-gradient(transparent, transparent); }
 
 .newsletterBox {
   opacity: 0;
   position: absolute;
   top: -21em;
-  background: white;
   width: 20em;
   margin-left: -7.75em;
   margin-top: -2em;
-  height: 20em;
-  padding: 1.5em 1em;
-  -webkit-transition: .5s all;
+  height: 24em;
+  padding-bottom: 4em;
   transition: .5s all; }
+  .newsletterBox__wrap {
+    background: white;
+    padding: 1.5em 1em; }
   .newsletterBox__p {
     text-align: center;
     font-size: 1em;
@@ -869,8 +800,8 @@ html {
     .newsletterBox__input label {
       display: block;
       font-size: 1em;
-      text-align: left;
       line-height: 1em;
+      text-align: left;
       margin: 0; }
     .newsletterBox__input input {
       display: block;
@@ -892,12 +823,10 @@ html {
     display: block;
     width: 100%;
     height: 2.75em;
-    font-size: 1em;
-    line-height: 2.75em;
+    font: 300 1em/2.75em "futura-pt", futura, trebuchet, sans-serif;
     top: 1.25em;
     text-align: center;
-    color: #939598;
-    font-family: "Futura Medium"; }
+    color: #939598; }
 
 .search {
   position: fixed;
@@ -906,29 +835,19 @@ html {
   left: 0;
   height: 100%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-items: center;
+  align-content: center;
   display: none;
   width: calc(100% - 7em);
   height: calc(100% - 7em);
   top: 3.5em;
   left: 3.5em;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(187, 189, 191, 0.7);
   opacity: 0;
-  -webkit-transition: 1s all;
   transition: 1s all; }
-  @media (max-width: 1024px) {
-    .search {
-      font-size: 12px; } }
   .search__close {
     background-image: url(../images/PNG/Collapse_Large.png);
-    background-image: url(../images/SVG/Collapse_Large.svg), -webkit-linear-gradient(transparent, transparent);
     background-image: url(../images/SVG/Collapse_Large.svg), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-size: contain;
@@ -938,8 +857,6 @@ html {
     right: 0;
     bottom: 0.20em; }
   .search--open {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     opacity: 1; }
   .search__wrap {
@@ -948,11 +865,8 @@ html {
     margin: 0 auto;
     height: 30em; }
   .search__boxes {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-animation: fade-in-top 1s;
-            animation: fade-in-top 1s; }
+    animation: fade-in-top 1s; }
     .search__boxes__box {
       margin-right: 2em; }
       .search__boxes__box__image {
@@ -964,20 +878,17 @@ html {
         display: block;
         margin-top: 1em;
         line-height: 1em;
-        font-family: "Futura Light"; }
+        font-weight: 300; }
       .search__boxes__box__subtitle {
         display: block;
         margin-top: .5em;
         line-height: 1em;
-        font-size: .75em;
         text-transform: uppercase;
         color: #00A4EB;
-        font-family: "Futura Light"; }
+        font: 300 0.75em "futura-pt", futura, trebuchet, sans-serif; }
   .search__term {
     position: relative;
-    font-family: "Futura Medium";
-    font-size: 8.5em;
-    line-height: 1em;
+    font: 500 8.5em/1em "futura-pt", futura, trebuchet, sans-serif;
     width: 97%;
     text-align: left;
     margin-left: 0em;
@@ -986,10 +897,8 @@ html {
     border-bottom: 1px solid #939598; }
   .search__results__text {
     text-align: left;
-    font-family: "Futura Medium";
+    font: 500 0.8em/4.5em "futura-pt", futura, trebuchet, sans-serif;
     text-transform: uppercase;
-    line-height: 4.5em;
-    font-size: .8em;
     margin-left: .5em; }
 
 .pOverlay {
@@ -999,19 +908,14 @@ html {
   .pOverlay--center {
     text-align: center; }
   .pOverlay__h2, .pOverlay__h3 {
-    font-size: 4em;
-    line-height: 1.5em;
     letter-spacing: 1px;
-    font-family: "Futura Light"; }
+    font: 300 2.25em/1.5em "futura-pt", futura, trebuchet, sans-serif; }
   .pOverlay__h3 {
     width: 35%;
-    margin-top: 0em;
-    font-size: 1em;
-    line-height: 1.5em;
+    font: 300 1em/1.75em "futura-pt", futura, trebuchet, sans-serif;
     letter-spacing: 1px; }
   .pOverlay__button {
     position: relative;
-    font-family: "Futura Light";
     display: inline-block;
     height: 2.5em;
     margin-top: 3em;
@@ -1020,13 +924,11 @@ html {
     letter-spacing: 1px;
     border: 1px solid #fff;
     color: #fff;
-    -webkit-transition: .5s all;
     transition: .5s all;
     text-transform: uppercase; }
     .pOverlay__button--center {
       margin: 0 auto; }
     .pOverlay__button div {
-      -webkit-transition: .5s all;
       transition: .5s all;
       display: block;
       content: " ";
@@ -1036,7 +938,6 @@ html {
       left: -1.25em;
       height: 2.5em;
       background-image: url("../images/SVG/BlueArrow.png");
-      background-image: url("../images/SVG/BlueArrow.svg"), -webkit-linear-gradient(transparent, transparent);
       background-image: url("../images/SVG/BlueArrow.svg"), linear-gradient(transparent, transparent);
       background-position: 125% center;
       background-size: auto 40%;

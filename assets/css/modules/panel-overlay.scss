@@ -6,22 +6,17 @@
         text-align: center;
     }
     &__h2 {
-        font-size: 4em;
-        line-height: 1.5em;
         letter-spacing: 1px;
-        font-family: "Futura Light";
+        font: $futuraLight 2.25em/1.5em $futura;
     }
     &__h3 {
         @extend .pOverlay__h2;
         width: 35%;
-        margin-top: 0em;
-        font-size: 1em;
-        line-height: 1.5em;
+        font: $futuraLight 1em/1.75em $futura;
         letter-spacing: 1px;
     }
     &__button {
         position: relative;
-        font-family: "Futura Light";
         display: inline-block;
         height: 2.5em;
         margin-top: 3em;

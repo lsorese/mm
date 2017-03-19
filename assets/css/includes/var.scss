@@ -1,16 +1,40 @@
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'), url('../fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$bebas: "Bebas Neue Bold",
+Helvetica,
+Arial;
+
+$futura: "futura-pt",
+futura,
+trebuchet,
+sans-serif;
+$proxima: "proxima-nova",
+"Gill Sans MT",
+"Gill Sans",
+Corbel,
+Arial,
+sans-serif;
+
 // FONTS
-$futuraR: 'Futura Book';
-$futuraRI: 'Futura Book Italic';
-$futuraL: 'Futura Light';
-$futuraLI: 'Futura Light Italic';
-$futuraM: 'Futura Medium';
-$futuraMI: 'Futura Medium Italic';
-$futuraR: 'Futura Bold';
-$futuraBI: 'Futura Bold Italic';
-$futuraM: 'Futura Medium';
-$futuraMI: 'Futura Medium Italic';
-$bebasNR: 'Bebas Neue Regular';
-$bebasR: 'Bebas Italic';
+$proximaThin: 100;
+$proximaLight: 300;
+$proximaRegular: 400;
+$proximaMedium: 500;
+$proximaSemibold: 600;
+$proximaBold: 700;
+$proximaExtra: 800;
+$proximaBlack: 900;
+$futuraLight: 300;
+$futuraBook: 400;
+$futuraMedium: 500;
+$futuraDemi: 600;
+$futuraHeavy: 700;
+$futuraExtra: 800;
 // PADDING
 $gutter: 7;
 // COLORS
