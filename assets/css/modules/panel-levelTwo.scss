@@ -1,16 +1,13 @@
-.pOverlay {
+.levelTwo {
     width: 80%;
     text-align: left;
     padding-top: 1em;
-    &--center {
-        text-align: center;
-    }
     &__h2 {
         letter-spacing: 1px;
         font: $futuraLight 2.25em/1.5em $futura;
     }
     &__h3 {
-        @extend .pOverlay__h2;
+        @extend .levelTwo__h2;
         width: 35%;
         font: $futuraLight 1em/1.75em $futura;
         letter-spacing: 1px;
@@ -32,7 +29,6 @@
         }
         div {
             transition: .5s all;
-
             display: block;
             content: " ";
             width: 5em;
@@ -47,10 +43,26 @@
             background-repeat: no-repeat;
         }
         &:hover {
-                padding: 0 1em 0 3em;
+            padding: 0 1em 0 3em;
             div {
-            background-position: 115% center;
+                background-position: 115% center;
             }
+        }
+    }
+    &--center {
+        text-align: center;
+    }
+    &--botLeft {
+        width: 90%;
+        text-align: left;
+        padding-top: 1em;
+        height: 100%;
+        position: relative;
+        display: flex;
+
+        .levelTwo__button {
+       margin-top: auto;
+       margin-bottom: 3.5em;
         }
     }
 }

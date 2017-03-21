@@ -99,20 +99,6 @@
 
 
 
-        var $grid = $('.grid').isotope({
-            // options
-            itemSelector: '.grid--item',
-            layoutMode: 'masonry',
-            cat: '[data-category]'
-        });
-
-        jQuery('.blog__nav--click').on('click',function(){
-            $grid.isotope({ filter: '.blogItem--' + $(this).data('category') })
-            jQuery('.blog__nav--click').removeClass('active');
-            jQuery('.blog__nav--click').addClass('notActive');
-            $(this).addClass('active').removeClass('notActive');
-        })
-
 
         $('.drawer').drawer();
         $('.drawer').on('drawer.opened', function() {
@@ -122,12 +108,33 @@
             $('.hamburger').removeClass('hamburger--open');
         });
 
-        $(window).resize(function() {
-            $('.masthead, .grid--item').height($('.base__inside').height() / 2);
-            $('.grid-item--tall, .grid__wrap, .search, .scrollArea').height($('.base__inside').height());
-        })
-        $('.masthead, .grid--item').height($('.base__inside').height() / 2);
-        $('.grid-item--tall, .grid__wrap, .search, .scrollArea').height($('.base__inside').height());
+            if($( ".base__filter" ).length) {
+                var heightCalc = $('.base__inside').height() - $('.base__filter').height() ;
+            } else {
+                 var heightCalc = $('.base__inside').height();
+            }
 
+        $(window).resize(function() {
+            $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
+            $('.grid--item--tall, .grid__wrap, .search, .scrollArea, .grid--item--wideTallThird').height(heightCalc);
+        })
+            $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
+            $('.grid--item--tall, .grid__wrap, .search, .scrollArea, .grid--item--wideTallThird').height(heightCalc);
+
+
+
+        var $grid = $('.grid').isotope({
+            // options
+            itemSelector: '.grid--item',
+            layoutMode: 'packery',
+            cat: '[data-category]'
+        });
+
+        jQuery('.blog__nav--click').on('click', function() {
+            $grid.isotope({ filter: '.blogItem--' + $(this).data('category') })
+            jQuery('.blog__nav--click').removeClass('active');
+            jQuery('.blog__nav--click').addClass('notActive');
+            $(this).addClass('active').removeClass('notActive');
+        })
 
     });

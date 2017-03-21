@@ -6,6 +6,10 @@
         overflow: visible;
         padding-right: 0em;
         clear: both;
+        .grid__wrap {
+            position: relative;
+            height: auto !important;
+        }
     }
 }
 

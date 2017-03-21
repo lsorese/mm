@@ -1,271 +1,3 @@
-@charset "UTF-8";
-/*!
-Typeplate : Starter Kit
-URL ........... http://typeplate.com
-Version ....... 3.0.1
-Github ........ https://github.com/typeplate/starter-kit
-Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
-License ....... Creative Commmons Attribution 3.0
-License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
-*/
-@font-face {
-  font-family: "Ampersand";
-  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
-  unicode-range: U+0026; }
-
-@font-face {
-  font-family: "Ampersand";
-  src: local("Georgia");
-  unicode-range: U+270C; }
-
-.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
-  text-rendering: optimizeLegibility;
-  line-height: 1;
-  margin-top: 0;
-  color: #222; }
-
-blockquote + figcaption cite {
-  display: block;
-  font-size: inherit;
-  text-align: right; }
-
-body {
-  word-wrap: break-word; }
-
-pre code {
-  word-wrap: normal; }
-
-html {
-  font: normal 112.5%/1.65 serif; }
-
-body {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  color: #444; }
-
-.typl8-tera {
-  font-size: 6.5em;
-  margin-bottom: 3.9393939394rem; }
-
-.typl8-giga {
-  font-size: 5em;
-  margin-bottom: 3.0303030303rem; }
-
-.typl8-mega, h1 {
-  font-size: 4em;
-  margin-bottom: 2.4242424242rem; }
-
-.typl8-alpha, h2 {
-  font-size: 3.3333333333em;
-  margin-bottom: 2.0202020202rem; }
-
-.typl8-beta, h3 {
-  font-size: 2.6666666667em;
-  margin-bottom: 1.6161616162rem; }
-
-.typl8-gamma, h4 {
-  font-size: 2em;
-  margin-bottom: 1.2121212121rem; }
-
-.typl8-delta, h5 {
-  font-size: 1.3333333333em;
-  margin-bottom: 0.8080808081rem; }
-
-.typl8-epsilon {
-  font-size: 1.1666666667em;
-  margin-bottom: 0.7070707071rem; }
-
-.typl8-zeta, h6 {
-  font-size: 1em;
-  margin-bottom: 0.6060606061rem; }
-
-p {
-  margin: auto auto 1.5rem; }
-  p + p {
-    text-indent: 1.5rem;
-    margin-top: -1.5rem; }
-
-small {
-  font-size: 65%; }
-
-input,
-abbr,
-acronym,
-blockquote,
-code,
-kbd,
-q,
-samp,
-var {
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none; }
-
-pre {
-  white-space: pre; }
-  pre code {
-    white-space: -moz-pre-wrap;
-    white-space: pre-wrap; }
-
-code {
-  white-space: pre;
-  font-family: monospace; }
-
-abbr {
-  -webkit-font-variant: small-caps;
-  -moz-font-variant: small-caps;
-  -ms-font-variant: small-caps;
-  font-variant: small-caps;
-  font-weight: 600;
-  text-transform: lowercase;
-  color: gray; }
-  abbr[title]:hover {
-    cursor: help; }
-
-.typl8-drop-cap:first-letter {
-  float: left;
-  margin: 10px 10px 0 0;
-  padding: 0 20px;
-  font-size: 4em;
-  font-family: inherit;
-  line-height: 1;
-  text-indent: 0;
-  background: transparent;
-  color: inherit; }
-
-p + .typl8-drop-cap {
-  text-indent: 0;
-  margin-top: 0; }
-
-/**
- * Lining Definition Style Markup
- *
-  <dl class="typl8-lining">
-    <dt><b></b></dt>
-    <dd></dd>
-  </dl>
- *
- * Extend this object into your markup.
- *
- */
-.typl8-lining dt,
-.typl8-lining dd {
-  display: inline;
-  margin: 0; }
-
-.typl8-lining dt + dt:before,
-.typl8-lining dd + dt:before {
-  content: "\A";
-  white-space: pre; }
-
-.typl8-lining dd + dd:before {
-  content: ", "; }
-
-.typl8-lining dd:before {
-  content: ": ";
-  margin-left: -0.2rem; }
-
-/**
- * Dictionary Definition Style Markup
- *
-  <dl class="typl8-dictionary-style">
-    <dt><b></b></dt>
-    <dd></dd>
-  </dl>
- *
- * Extend this object into your markup.
- *
- */
-.typl8-dictionary-style dt {
-  display: inline;
-  counter-reset: definitions; }
-  .typl8-dictionary-style dt + dt:before {
-    content: ", ";
-    margin-left: -0.2rem; }
-
-.typl8-dictionary-style dd {
-  display: block;
-  counter-increment: definitions; }
-  .typl8-dictionary-style dd:before {
-    content: counter(definitions, decimal) ". "; }
-
-/**
- * Blockquote Markup
- *
-    <figure>
-      <blockquote cite="">
-        <p></p>
-      </blockquote>
-      <figcaption>
-        <cite>
-          <small><a href=""></a></small>
-        </cite>
-      </figcaption>
-    </figure>
- *
- * Extend this object into your markup.
- *
- */
-/**
- * Pull Quotes Markup
- *
-  <aside class="typl8-pull-quote">
-    <blockquote>
-      <p></p>
-    </blockquote>
-  </aside>
- *
- * Extend this object into your custom stylesheet.
- *
- */
-.typl8-pull-quote {
-  position: relative;
-  padding: 1em; }
-  .typl8-pull-quote:before, .typl8-pull-quote:after {
-    height: 1em;
-    opacity: 0.5;
-    position: absolute;
-    font-size: 4em;
-    color: #dc976e; }
-  .typl8-pull-quote:before {
-    content: '“';
-    top: 0;
-    left: 0; }
-  .typl8-pull-quote:after {
-    content: '”';
-    bottom: 0;
-    right: 0; }
-
-/**
- * Figures Markup
- *
-  <figure>
-    <figcaption>
-      <strong>Fig. X.X | </strong><cite title=""></cite>
-    </figcaption>
-  </figure>
- *
- * Extend this object into your markup.
- *
- */
-/**
- * Footnote Markup : Replace 'X' with your unique number for each footnote
- *
-  <article>
-    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
-    <footer>
-      <ol class="foot-notes">
-        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
-      </ol>
-    </footer>
-  </article>
- *
- * Extend this object into your markup.
- *
- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -446,6 +178,47 @@ html {
     margin: 0;
     top: 40%;
     margin-top: -.5em; }
+  .base__filter {
+    background: #fff;
+    height: 2.5em;
+    width: 100%;
+    text-align: center; }
+    .base__filter__link {
+      padding: 0 2.5em;
+      position: relative;
+      display: inline-block;
+      font-size: .85em;
+      line-height: 3em;
+      font-weight: bold;
+      text-transform: uppercase; }
+      .base__filter__link::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        background-image: url("../images/SVG/Down Arrow.png");
+        background-image: url("../images/SVG/Down Arrow.svg"), linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+        top: 0;
+        height: 3em;
+        width: .75em;
+        background-position: center center;
+        right: 1.25em; }
+      .base__filter__link__child {
+        display: none;
+        position: absolute;
+        background: white;
+        width: 100%;
+        z-index: 10000; }
+        .base__filter__link__child ul {
+          padding: 0 1em; }
+          .base__filter__link__child ul li {
+            display: block;
+            text-align: left;
+            font-weight: lighter;
+            text-transform: capitalize;
+            line-height: 2.15em; }
+      .base__filter__link:hover .base__filter__link__child {
+        display: block; }
 
 .swiper-container {
   width: 100%;
@@ -508,6 +281,9 @@ html {
     overflow: visible;
     padding-right: 0em;
     clear: both; }
+    .scrollArea--viewport .grid__wrap {
+      position: relative;
+      height: auto !important; }
 
 ::-webkit-scrollbar-track {
   background-color: #f0f0f0; }
@@ -546,9 +322,16 @@ html {
     line-height: 1.75em; }
 
 .grid--item {
-  width: calc(100% / 4); }
+  width: 25%; }
   .grid--item--wide {
-    width: calc(100% / 2); }
+    width: 50%; }
+  .grid--item--wideTallThird {
+    width: 40%;
+    height: 100%; }
+  .grid--item--wideShortThird {
+    width: 40%; }
+  .grid--item--tinyShortThird {
+    width: 20%; }
   .grid--item__wrap {
     display: flex;
     flex-direction: column;
@@ -920,20 +703,18 @@ html {
     text-transform: uppercase;
     margin-left: .5em; }
 
-.pOverlay {
+.levelTwo {
   width: 80%;
   text-align: left;
   padding-top: 1em; }
-  .pOverlay--center {
-    text-align: center; }
-  .pOverlay__h2, .pOverlay__h3 {
+  .levelTwo__h2, .levelTwo__h3 {
     letter-spacing: 1px;
     font: 300 2.25em/1.5em "futura-pt", futura, trebuchet, sans-serif; }
-  .pOverlay__h3 {
+  .levelTwo__h3 {
     width: 35%;
     font: 300 1em/1.75em "futura-pt", futura, trebuchet, sans-serif;
     letter-spacing: 1px; }
-  .pOverlay__button {
+  .levelTwo__button {
     position: relative;
     display: inline-block;
     height: 2.5em;
@@ -945,9 +726,9 @@ html {
     color: #fff;
     transition: .5s all;
     text-transform: uppercase; }
-    .pOverlay__button--center {
+    .levelTwo__button--center {
       margin: 0 auto; }
-    .pOverlay__button div {
+    .levelTwo__button div {
       transition: .5s all;
       display: block;
       content: " ";
@@ -961,10 +742,22 @@ html {
       background-position: 125% center;
       background-size: auto 40%;
       background-repeat: no-repeat; }
-    .pOverlay__button:hover {
+    .levelTwo__button:hover {
       padding: 0 1em 0 3em; }
-      .pOverlay__button:hover div {
+      .levelTwo__button:hover div {
         background-position: 115% center; }
+  .levelTwo--center {
+    text-align: center; }
+  .levelTwo--botLeft {
+    width: 90%;
+    text-align: left;
+    padding-top: 1em;
+    height: 100%;
+    position: relative;
+    display: flex; }
+    .levelTwo--botLeft .levelTwo__button {
+      margin-top: auto;
+      margin-bottom: 3.5em; }
 
 .blog {
   text-align: left; }

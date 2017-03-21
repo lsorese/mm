@@ -82,6 +82,55 @@ html {
         top: 40%;
         margin-top: -.5em
     }
+    &__filter {
+        background: #fff;
+        height: 2.5em;
+        width: 100%;
+        text-align: center;
+        &__link {
+            padding: 0 2.5em;
+            position: relative;
+            display: inline-block;
+            font-size: .85em;
+            line-height: 3em;
+            font-weight: bold;
+            text-transform: uppercase;
+            &::after {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                background-image: url('../images/SVG/Down Arrow.png');
+                background-image: url('../images/SVG/Down Arrow.svg'), linear-gradient(transparent, transparent);
+                background-repeat: no-repeat;
+                top: 0;
+                height: 3em;
+                width: .75em;
+                background-position: center center;
+                    right: 1.25em;
+            }
+            &__child {
+                display: none;
+                position: absolute;
+                background:white;
+                width:100%;
+                z-index: 10000;
+                ul {
+                    padding: 0 1em;
+                    li {
+                        display: block;
+                        text-align: left;
+                        font-weight: lighter;
+                        text-transform: capitalize;
+                        line-height: 2.15em;
+                    }
+                }
+                
+            }
+            &:hover .base__filter__link__child {
+                display: block;
+            }
+        }
+    }
 }
 
 .swiper-container {

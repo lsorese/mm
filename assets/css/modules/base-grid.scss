@@ -35,10 +35,20 @@
 
 .grid--item {
     // Height controlled by JS.
-    width: calc(100% / 4);
+    width: 25%;
     &--tall {}
     &--wide {
-        width: calc(100% / 2);
+        width: 50%;
+    }
+    &--wideTallThird {
+        width: 40%;
+        height:100%;
+    }
+    &--wideShortThird {
+        width: 40%;
+    }
+    &--tinyShortThird {
+        width: 20%;
     }
     &__wrap {
         display: flex;
