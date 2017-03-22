@@ -6,7 +6,7 @@
     z-index: 100000;
     &__logo {
         height: #{$gutter / 2 + em};
-        width: 40%;
+        width: 100%;
         margin: 0 auto;
         background-image: url('../images/SVG/Logo.png');
         background-image: url('../images/SVG/Logo.svg'), linear-gradient(transparent, transparent);

@@ -14,6 +14,9 @@
         text-align: left;
         color: $grey;
         float: left;
+        a:hover {
+            color:#000;
+        }
     }
     &__newsletter {
         cursor: pointer;
@@ -21,6 +24,7 @@
         float: right;
         overflow: hidden;
         &:hover {
+            color:#000 !important;
             overflow: visible;
             .newsletterBox {
                 opacity: 1;
@@ -41,17 +45,33 @@
             background-size: auto 25%;
             background-repeat: no-repeat;
             background-position: center right;
+                &:hover {
+                background-image: url('../images/SVG/Facebook Hover.png');
+                background-image: url('../images/SVG/Facebook Hover.svg'), linear-gradient(transparent, transparent);
+                }
             &--instagram {
                 background-image: url('../images/SVG/Instagram.png');
                 background-image: url('../images/SVG/Instagram.svg'), linear-gradient(transparent, transparent);
+                &:hover {
+                background-image: url('../images/SVG/Instagram Hover.png');
+                background-image: url('../images/SVG/Instagram Hover.svg'), linear-gradient(transparent, transparent);
+                }
             }
             &--linkedin {
                 background-image: url('../images/SVG/Linkedin.png');
                 background-image: url('../images/SVG/Linkedin.svg'), linear-gradient(transparent, transparent);
+                &:hover {
+                background-image: url('../images/SVG/Linkedin Hover.png');
+                background-image: url('../images/SVG/Linkedin Hover.svg'), linear-gradient(transparent, transparent);
+                }
             }
             &--twitter {
                 background-image: url('../images/SVG/Twitter.png');
                 background-image: url('../images/SVG/Twitter.svg'), linear-gradient(transparent, transparent);
+                                &:hover {
+                background-image: url('../images/SVG/Twitter Hover.png');
+                background-image: url('../images/SVG/Twitter Hover.svg'), linear-gradient(transparent, transparent);
+                }
             }
         }
     }
@@ -60,13 +80,15 @@
 .newsletterBox {
     opacity: 0;
     position: absolute;
-    top: -21em;
-    width: 20em;
-    margin-left: -7.75em;
+    top: -22em;
+    width: 22em;
+    margin-left: -8.75em;
     margin-top:-2em;
-    height: 24em;
+    height: 26em;
     padding-bottom: 4em;
     transition: .5s all;
+    font: $futuraLight 1em $futura;
+    color:#000;
     &__wrap {
             background: white;
             padding: 1.5em 1em;
@@ -112,6 +134,6 @@
         font: $futuraLight 1em/2.75em $futura;
         top: 1.25em;
         text-align: center;
-        color:$grey;
+        color:#000;
     }
 }

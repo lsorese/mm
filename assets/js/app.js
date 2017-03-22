@@ -1,4 +1,19 @@
     jQuery(function() {
+
+        if (document.getElementById('map')) {
+            var uluru = { lat: 36.028601, lng: -115.088484 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                icon: 'assets/images/PNG/Map.png',
+
+                map: map
+            });
+        }
+
         var swiper = new Swiper('.swiper-container', {
             pagination: '.base__pagination .base__section',
             paginationClickable: true,
@@ -34,7 +49,7 @@
             swiper.slideNext(300);
         });
 
-        $(".animsition").animsition({
+        /*$(".animsition").animsition({
             inClass: 'fade-in-left',
             outClass: 'fade-out-right',
             inDuration: 800,
@@ -55,7 +70,7 @@
             overlayClass: 'animsition-overlay-slide',
             overlayParentElement: 'body',
             transition: function(url) { window.location.href = url; }
-        });
+        }); */
 
         jQuery('.hamburger').on('click', function(e) {
             e.preventDefault;
@@ -97,9 +112,6 @@
 
         });
 
-
-
-
         $('.drawer').drawer();
         $('.drawer').on('drawer.opened', function() {
             $('.hamburger').addClass('hamburger--open');
@@ -108,20 +120,17 @@
             $('.hamburger').removeClass('hamburger--open');
         });
 
-            if($( ".base__filter" ).length) {
-                var heightCalc = $('.base__inside').height() - $('.base__filter').height() ;
-            } else {
-                 var heightCalc = $('.base__inside').height();
-            }
+        if ($(".base__filter").length) {
+            var heightCalc = $('.base__inside').height();
 
-        $(window).resize(function() {
-            $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
-            $('.grid--item--tall, .grid__wrap, .search, .scrollArea, .grid--item--wideTallThird').height(heightCalc);
-        })
-            $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
-            $('.grid--item--tall, .grid__wrap, .search, .scrollArea, .grid--item--wideTallThird').height(heightCalc);
+            //var heightCalc = $('.base__inside').height() - $('.base__filter').height();
+        } else {
+            var heightCalc = $('.base__inside').height();
+        }
 
 
+        $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
+        $('.grid--item--tall, .grid__wrap, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(heightCalc);
 
         var $grid = $('.grid').isotope({
             // options
@@ -130,11 +139,28 @@
             cat: '[data-category]'
         });
 
-        jQuery('.blog__nav--click').on('click', function() {
-            $grid.isotope({ filter: '.blogItem--' + $(this).data('category') })
-            jQuery('.blog__nav--click').removeClass('active');
-            jQuery('.blog__nav--click').addClass('notActive');
-            $(this).addClass('active').removeClass('notActive');
-        })
+        var $items = $grid.find('.grid--item');
+        $grid.addClass('is-showing-items')
+            .isotope('revealItemElements', $items);
+
+        jQuery('.base__filter__link a').on('click', function() {
+                $grid.isotope({ filter: '.blogItem--' + $(this).data('category') })
+                jQuery('.blog__nav--click').removeClass('active');
+                jQuery('.blog__nav--click').addClass('notActive');
+                $(this).addClass('active').removeClass('notActive');
+            })
+            //swiper.destroy(true, true);
+            if($('.owl-carousel').length) {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            items: 1,
+        });
+        }
 
     });
+    $(window).resize(function() {
+        $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
+        $('.grid--item--tall, .grid__wrap, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(heightCalc);
+    })

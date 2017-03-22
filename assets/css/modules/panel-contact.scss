@@ -1,0 +1,75 @@
+.contact {
+	width:100%;
+	height:100%;
+	display: flex;
+	&__map {
+		width: 50%;
+		height:100%;
+		background:$grey;
+	}
+	&__form {
+		text-align: left;
+		width: 50%;
+		height:100%;
+		background:#fff;
+		&__display {
+			width:58%;
+			margin: 13% auto 0 auto;
+		}
+		&__h1 {
+			font: $futuraLight 2.5em/1em $futura;
+			letter-spacing: .08em;
+		}
+		&__p {
+			font: $futuraLight .8em/1.8em $futura;
+			letter-spacing: .08em;
+			margin-top: 1.5em;
+		}
+	}
+	.form {
+		margin-top: 3em;
+		&__input {
+			display: block;
+			label {
+				display: block;
+				font: $futuraLight 1em/1em $futura;
+			}
+			input, textarea {
+				margin: 1em 0 2em;
+				width:100%;
+				height:3em;
+				border: 2px solid #D0D2D3;
+				display: block;
+			}
+			textarea {
+				height:7em;
+			}
+		}
+		&__split {
+			display: flex;
+			width:100%;
+			.form__input {
+				width:50%;
+				&:nth-child(2) {
+					margin-left: 1em;
+				}
+			}
+		}
+		&__submit {
+			display: block;
+			width:100%;
+			padding-top: 1em;
+			&__button {
+				display: block;
+				width:100%;
+				height:3.5em;
+				border: 0;
+				border-top: 2px solid #D0D2D3;
+
+				text-align: center;
+				letter-spacing: 1px;
+				font: $futuraLight 1.5em $futura;
+			}
+		}
+	}
+}

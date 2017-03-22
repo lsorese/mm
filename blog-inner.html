@@ -12,8 +12,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.min.css" />
-    <link rel="stylesheet" href="bower_components/animsition/dist/css/animsition.min.css" />
+    <!--<link rel="stylesheet" href="bower_components/animsition/dist/css/animsition.min.css" />-->
     <link rel="stylesheet" href="bower_components/drawer/dist/css/drawer.min.css" />
+    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.transitions.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
 </head>
 
@@ -33,14 +36,38 @@
             </div>
         </div>
         <div class="base__inside animsition">
-            <div class="scrollArea">
+            <div class="scrollArea scrollArea--none">
                 <div class="scrollArea--viewport">
                     <div class="blog">
                         <div class="blog__article">
                             <div class="blogArticle">
+                                <div class="blogArticle__sidebar" id="sidebar">
+                                    <h4 class="blogArticle__sidebar__h4">Trending</h4>
+                                    <a class="blogArticle__sidebar__item">
+                                        <div class="blogArticle__sidebar__item__image"></div>
+                                        <div class="blogArticle__sidebar__item__title">Massmedia Wins Bigs at LVIMA</div>
+                                        <div class="blogArticle__sidebar__item__cat">Arts</div>
+                                    </a>
+                                    <a class="blogArticle__sidebar__item">
+                                        <div class="blogArticle__sidebar__item__image"></div>
+                                        <div class="blogArticle__sidebar__item__title">Massmedia Wins Bigs at LVIMA</div>
+                                        <div class="blogArticle__sidebar__item__cat">Arts</div>
+                                    </a>
+                                    <a class="blogArticle__sidebar__item">
+                                        <div class="blogArticle__sidebar__item__image"></div>
+                                        <div class="blogArticle__sidebar__item__title">Massmedia Wins Bigs at LVIMA</div>
+                                        <div class="blogArticle__sidebar__item__cat">Arts</div>
+                                    </a>
+                                </div>
                                 <div class="blogArticle__copy">
                                     <div class="blogCopy">
-                                        <div class="blogCopy__image"></div>
+                                        <div class="blogCopy__image owl-carousel owl-theme">
+                                            <div class="slide" style="background-color:#f0f0f0;"></div>
+                                            <div class="slide" style="background-color:#eee;"></div>
+                                            <div class="slide" style="background-color:#e0e0e0;"></div>
+                                            <div class="slide" style="background-color:#ddd;"></div>
+                                            <div class="slide" style="background-color:#d0d0d0;"></div>
+                                        </div>
                                         <div class="blogCopy__cat">Culture</div>
                                         <h2 class="blogCopy__title">MassMedia names Georgeanne Pizzi Partner</h2>
                                         <div class="blogCopy__copy">
@@ -62,59 +89,19 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="blogArticle__sidebar">
-                                    <h4 class="blogArticle__sidebar__h4">Trending</h4>
-                                    <a class="blogArticle__sidebar__item">
-                                        <div class="blogArticle__sidebar__item__image"></div>
-                                        <div class="blogArticle__sidebar__item__title">Massmedia Wins Bigs at LVIMA</div>
-                                        <div class="blogArticle__sidebar__item__cat">Arts</div>
-                                    </a>
-                                    <a class="blogArticle__sidebar__item">
-                                        <div class="blogArticle__sidebar__item__image"></div>
-                                        <div class="blogArticle__sidebar__item__title">Massmedia Wins Bigs at LVIMA</div>
-                                        <div class="blogArticle__sidebar__item__cat">Arts</div>
-                                    </a>
-                                    <a class="blogArticle__sidebar__item">
-                                        <div class="blogArticle__sidebar__item__image"></div>
-                                        <div class="blogArticle__sidebar__item__title">Massmedia Wins Bigs at LVIMA</div>
-                                        <div class="blogArticle__sidebar__item__cat">Arts</div>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="search">
-            <div class="search__wrap">
-                <div class="search__term">Medi
-                    <div class="search__close"></div>
-                </div>
-                <div class="search__results">
-                    <div class="search__results__text">2 results found</div>
-                    <div class="search__boxes">
-                        <div class="search__boxes__box">
-                            <div class="search__boxes__box__image"></div>
-                            <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
-                            <div class="search__boxes__box__subtitle">Campaign Development</div>
-                        </div>
-                        <div class="search__boxes__box">
-                            <div class="search__boxes__box__image"></div>
-                            <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
-                            <div class="search__boxes__box__subtitle">Campaign Development</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="base__pagination">
+        <!--<div class="base__pagination">
             <div class="base__section">
             </div>
             <div class="base__scroll">
                 <div class="base__scroll__box">s<span>croll</span></div>
             </div>
-        </div>
+        </div>-->
         <nav class="drawer-nav" role="navigation">
             <ul>
                 <li><a href="#">Our Services</a></li>
@@ -142,6 +129,28 @@
             <div class="footer__newsletter__box"></div>
         </div>
     </div>
+    <div class="search">
+        <div class="search__wrap">
+            <div class="search__term">Medi
+                <div class="search__close"></div>
+            </div>
+            <div class="search__results">
+                <div class="search__results__text">2 results found</div>
+                <div class="search__boxes">
+                    <div class="search__boxes__box">
+                        <div class="search__boxes__box__image"></div>
+                        <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                        <div class="search__boxes__box__subtitle">Campaign Development</div>
+                    </div>
+                    <div class="search__boxes__box">
+                        <div class="search__boxes__box__image"></div>
+                        <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                        <div class="search__boxes__box__subtitle">Campaign Development</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://use.typekit.net/eee2ywb.js"></script>
     <script>
     try {
@@ -156,6 +165,10 @@
     <script type="text/javascript" src="bower_components/drawer/dist/js/drawer.min.js"></script>
     <script type="text/javascript" src="bower_components/iscroll/build/iscroll-lite.js"></script>
     <script type="text/javascript" src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="bower_components/isotope-packery/packery-mode.pkgd.min.js"></script>
+    <script type="text/javascript" src="bower_components/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery.sticky/jquery.sticky.js"></script>
+
     <script>
     var data = ["ONE", "TWO", "THREE", "4OUR"];
     </script>
