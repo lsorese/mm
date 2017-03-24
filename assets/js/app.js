@@ -49,12 +49,12 @@
             swiper.slideNext(300);
         });
 
-        /*$(".animsition").animsition({
+        $(".animsition").animsition({
             inClass: 'fade-in-left',
-            outClass: 'fade-out-right',
+            outClass: 'fade-out-left',
             inDuration: 800,
             outDuration: 800,
-            linkElement: '.animsition-link',
+            linkElement: 'a:not([target="_blank"])',
             // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
             loading: true,
             loadingParentElement: 'body', //animsition wrapper element
@@ -69,8 +69,40 @@
             overlay: false,
             overlayClass: 'animsition-overlay-slide',
             overlayParentElement: 'body',
-            transition: function(url) { window.location.href = url; }
-        }); */
+            transition: function(url) { $(this).fadeOut();
+                window.location.href = url; }
+        });
+
+        $("body").animsition({
+            inClass: 'fade-in',
+            outClass: 'fade-out',
+            inDuration: 800,
+            outDuration: 800,
+            linkElement: 'a:not([target="_blank"])',
+            // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+            loading: true,
+            loadingParentElement: 'body', //animsition wrapper element
+            loadingInner: '', // e.g '<img src="loading.svg" />'
+            timeout: false,
+            timeoutCountdown: 5000,
+            onLoadEvent: true,
+            browser: ['animation-duration', '-webkit-animation-duration'],
+            // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+            overlay: false,
+            overlayClass: 'animsition-overlay-slide',
+            overlayParentElement: 'html',
+            transition: function(url) {
+                window.location.href = url;
+            }
+        }).on('animsition.outEnd', function() {
+            $('body').hide();
+
+        }).on('animsition.inStart', function() {
+            $('body').show();
+
+        })
+
 
         jQuery('.hamburger').on('click', function(e) {
             e.preventDefault;
@@ -150,13 +182,13 @@
                 $(this).addClass('active').removeClass('notActive');
             })
             //swiper.destroy(true, true);
-            if($('.owl-carousel').length) {
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            items: 1,
-        });
+        if ($('.owl-carousel').length) {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                items: 1,
+            });
         }
 
     });

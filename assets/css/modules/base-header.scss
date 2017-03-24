@@ -5,6 +5,7 @@
     margin-left: #{$gutter / 2 + em};
     z-index: 100000;
     &__logo {
+        display: block;
         height: #{$gutter / 2 + em};
         width: 100%;
         margin: 0 auto;
