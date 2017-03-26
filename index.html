@@ -11,13 +11,15 @@
     <title>Mass Media</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.min.css" />
-    <link rel="stylesheet" href="bower_components/animsition/dist/css/animsition.min.css" />
     <link rel="stylesheet" href="bower_components/drawer/dist/css/drawer.min.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
+    <div class="bigOverlay" id="noscript">TEST</div>
+
+    <script>document.getElementById('noscript').style.display='none';</script>
+
 </head>
 
-<body class="drawer drawer--right">
+<body class="drawer drawer--right home">
     <div class="base">
         <div class="header">
             <div class="header__logo"></div>
@@ -32,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="base__inside animsition base__inside--home">
+        <div class="base__inside base__inside--home">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -102,13 +104,20 @@
         </div>
         <nav class="drawer-nav" role="navigation">
             <ul>
-                <li><a href="about.html">Our Services</a></li>
+                <li class="drawer-nav--search">Search</li>
+                <li><a href="#">Our Services</a></li>
                 <li><a href="#">Our Work</a></li>
                 <li><a href="#">Our Clients</a></li>
                 <li><a href="#">Our Crew</a></li>
                 <li><a href="#">Our Voice</a></li>
                 <li><a href="#">Our Digits</a></li>
             </ul>
+                    <div class="footer__social">
+            <a class="footer__social__icon footer__social__icon--facebook"></a>
+            <a class="footer__social__icon footer__social__icon--instagram"></a>
+            <a class="footer__social__icon footer__social__icon--linkedin"></a>
+            <a class="footer__social__icon footer__social__icon--twitter"></a>
+        </div>
         </nav>
     </div>
     <div class="scrollArrow"><span>Scroll</span>
@@ -167,6 +176,15 @@
                         <div class="search__boxes__box__image"></div>
                         <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
                         <div class="search__boxes__box__subtitle">Campaign Development</div>
+                    </div>                    <div class="search__boxes__box">
+                        <div class="search__boxes__box__image"></div>
+                        <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                        <div class="search__boxes__box__subtitle">Campaign Development</div>
+                    </div>
+                    <div class="search__boxes__box">
+                        <div class="search__boxes__box__image"></div>
+                        <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                        <div class="search__boxes__box__subtitle">Campaign Development</div>
                     </div>
                 </div>
             </div>
@@ -182,7 +200,6 @@
     </script>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/animsition/dist/js/animsition.min.js"></script>
     <script type="text/javascript" src="bower_components/drawer/dist/js/drawer.min.js"></script>
     <script type="text/javascript" src="bower_components/iscroll/build/iscroll-lite.js"></script>
     <script type="text/javascript" src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
@@ -190,8 +207,8 @@
     <script>
     var data = ["ONE", "2WO", "3HREE", "4OUR", "5IVE"];
     </script>
-    <script src="assets/js/app.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWdr9YKmaRWCMpj2z0pFvrN5DHIz7V85o"></script>
+    <script async defer src="assets/js/app.js"></script>
 </body>
 
 </html>

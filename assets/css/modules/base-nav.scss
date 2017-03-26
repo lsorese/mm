@@ -4,6 +4,9 @@
 
 .drawer--right .drawer-nav {
     right: -23em;
+    @include phone {
+        right: -55%;
+    }
 }
 
 .drawer-nav {
@@ -11,20 +14,45 @@
     height: calc(100% - #{$gutter+em});
     margin-top: #{$gutter / 2 + em};
     width: 22.5em;
-	ul {
-		padding-top:1em;
-		li {
-			height:5.5em;
-			line-height:5.5em;
-			display: block;
-			text-align: center;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			a {
-				font: $futuraLight 1em $futura;
-				color:$grey;
-
-			}
-		}
-	}
+    @include phone {
+        width: 55%;
+        height: calc(100% - 2em);
+    }
+    ul {
+        padding-top: 1em;
+        li {
+            height: 5.5em;
+            line-height: 5.5em;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font: $futuraLight 1em $futura;
+            color: $grey;
+            @include phone {
+                height: 4.5em;
+                line-height: 4.5em;
+            }
+        }
+    }
+    &--search {
+        display: none !important;
+        @include phone {
+            display: block !important;
+        }
+    }
+    .footer__social {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        float: none;
+        text-align: center;
+        height: 5em;
+        &__icon {
+            float: none;
+            display: inline-block;
+            background-position: center center;
+        }
+    }
 }

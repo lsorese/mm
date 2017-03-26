@@ -27,12 +27,20 @@
             float: left;
             width: #{$gutter / 2.4 + em};
             height: #{$gutter / 2 + em};
+            @include phone {
+                display: none;
+            }
             &--search {
                 background-size: 50%;
                 background-repeat: no-repeat;
                 background-position: 50% 52%;
                 background-image: url('../images/SVG/Search.png');
                 background-image: url('../images/SVG/Search.svg'), linear-gradient(transparent, transparent);
+
+                &:hover {
+
+                    transform: translateZ(0) rotate(-10deg);
+                }
             }
         }
     }
@@ -94,6 +102,21 @@
         }
         .line--three {
             transform: rotate(-45deg) translate(-1.15em, 1.10em);
+        }
+    }
+}
+
+.mobile {
+    .header {
+        width:100%;
+        margin-left: 0;
+        &__logo {
+            background-size: auto 44%;
+            background-position: center center;
+            width:100%;
+        }
+        &__right {
+            margin-right:1em;
         }
     }
 }

@@ -55,9 +55,10 @@ $desktop-width: 1024px;
 
 html {
     height: 100%;
-    height: 100%;
     color: hsl(0, 0%, 25%);
+    -webkit-transform: translate3d(0,0,0);
     text-rendering: optimizeLegibility;
+    overflow: hidden;
 }
 
 @include ultra {
@@ -67,11 +68,15 @@ html {
 }
 
 body {
-    opacity: 0;
     box-sizing: inherit;
     margin: 0;
     line-height: 100%;
     font-size: 16px;
+    @include tablet {
+        font-size: 14px;
+    }
+        overflow: hidden;
+
 }
 
 h1,

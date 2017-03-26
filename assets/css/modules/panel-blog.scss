@@ -6,6 +6,24 @@
         margin: 0 auto;
         padding-top: 2.5em;
     }
+    &__more {
+        display: block;
+        margin:3em auto 3em auto;
+        background:transparent;
+        width:42%;
+        height:4.5em;
+        line-height: 4.5em;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: .8em;
+        border: 2px solid #ADAFB1;
+        color:#ADAFB1;
+        letter-spacing: .2em;
+        &:hover {
+            background:#ADAFB1;
+            color:#fff;
+        }
+    }
 }
 
 .blogItem {

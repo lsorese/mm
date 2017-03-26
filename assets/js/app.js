@@ -1,19 +1,46 @@
-    jQuery(function() {
+$(function() {
+    function redraw() {
+        var heightCalc = $('.base__inside').height();
+        var widthCalc = $('.base__inside').width();
 
-        if (document.getElementById('map')) {
-            var uluru = { lat: 36.028601, lng: -115.088484 };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 14,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                icon: 'assets/images/PNG/Map.png',
+        if ($('body').width() < 576) {
+            $('.grid--item, .grid--item__overlay, .grid--item--wideShortThird').height(widthCalc / 2).width(widthCalc / 2); // make square
+            $('.grid--item--tall, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(widthCalc).width(widthCalc);
+            $('.masthead').height(widthCalc / 2).width(widthCalc);
+            $('body, html').addClass('mobile').removeClass('desktop');
+            $('.grid--item__overlay').width(widthCalc);
+        } else {
+            $('.masthead, .grid--item, .grid--item__overlay, .grid--item--wideShortThird').height(heightCalc / 2);
+            $('.grid--item--tall, .grid__wrap, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(heightCalc);
 
-                map: map
-            });
+            $('body, html').addClass('desktop').removeClass('mobile');
+            $('.grid--item__overlay').width(widthCalc / 2);
         }
+    }
 
+    redraw();
+    $(window).resize(function() {
+        redraw();
+    });
+
+    // Google Maps
+    if (document.getElementById('map')) {
+        var marker = { lat: 36.028601, lng: -115.088484 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14,
+            center: marker
+        });
+        var marker = new google.maps.Marker({
+            position: marker,
+            icon: 'assets/images/PNG/Map.png',
+            map: map
+        });
+    }
+    if ($('body').width() < 576) {
+        var heightCalc = $('.base__inside').height();
+
+
+    } else {
         var swiper = new Swiper('.swiper-container', {
             pagination: '.base__pagination .base__section',
             paginationClickable: true,
@@ -36,9 +63,9 @@
 
             }
         });
+
+        // SWIPER CONTROL
         $('.bullet[data-index="0"]').addClass("active");
-
-
         $('.bullet').on('click', function() {
             swiper.slideTo($(this).attr('data-index'), 300);
         });
@@ -48,151 +75,113 @@
         $('.scrollArrow').on('click', function() {
             swiper.slideNext(300);
         });
+    }
 
-        $(".animsition").animsition({
-            inClass: 'fade-in-left',
-            outClass: 'fade-out-left',
-            inDuration: 800,
-            outDuration: 800,
-            linkElement: 'a:not([target="_blank"])',
-            // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-            loading: true,
-            loadingParentElement: 'body', //animsition wrapper element
-            loadingClass: 'animsition-loading',
-            loadingInner: '', // e.g '<img src="loading.svg" />'
-            timeout: false,
-            timeoutCountdown: 5000,
-            onLoadEvent: true,
-            browser: ['animation-duration', '-webkit-animation-duration'],
-            // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-            // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-            overlay: false,
-            overlayClass: 'animsition-overlay-slide',
-            overlayParentElement: 'body',
-            transition: function(url) { $(this).fadeOut();
-                window.location.href = url; }
-        });
-
-        $("body").animsition({
-            inClass: 'fade-in',
-            outClass: 'fade-out',
-            inDuration: 800,
-            outDuration: 800,
-            linkElement: 'a:not([target="_blank"])',
-            // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-            loading: true,
-            loadingParentElement: 'body', //animsition wrapper element
-            loadingInner: '', // e.g '<img src="loading.svg" />'
-            timeout: false,
-            timeoutCountdown: 5000,
-            onLoadEvent: true,
-            browser: ['animation-duration', '-webkit-animation-duration'],
-            // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-            // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-            overlay: false,
-            overlayClass: 'animsition-overlay-slide',
-            overlayParentElement: 'html',
-            transition: function(url) {
-                window.location.href = url;
-            }
-        }).on('animsition.outEnd', function() {
-            $('body').hide();
-
-        }).on('animsition.inStart', function() {
-            $('body').show();
-
-        })
-
-
-        jQuery('.hamburger').on('click', function(e) {
-            e.preventDefault;
-            $('.hamburger').addClass('hamburger--open');
-        })
-
-        jQuery('.header__right__icon--search').on('click', function(e) {
-            e.preventDefault;
-            if ($('.search').hasClass('search--open') === true) {
-                $('.search').removeClass('search--open');
-                $('.scrollArrow').fadeIn();
-            } else {
-                $('.scrollArrow').fadeOut();
-                $('.search').addClass('search--open');
-
-            }
-
-        })
-        jQuery('.search__close').on('click', function(e) {
-            e.preventDefault;
-            $('.search').removeClass('search--open');
-            $('.scrollArrow').fadeIn();
-        })
-
-        jQuery(".imageHover").each(function(index, el) {
-            var no = $(this).data('no');
-            var yes = $(this).data('yes');
-            $(this).css('background-image', 'url(' + no + ')');
-            $(this).on({
-                mouseenter: function() {
-                    $(this).css('background-image', 'url(' + yes + ')');
-
-                },
-                mouseleave: function() {
-                    $(this).css('background-image', 'url(' + no + ')');
-
-                }
-            })
-
-        });
-
-        $('.drawer').drawer();
-        $('.drawer').on('drawer.opened', function() {
-            $('.hamburger').addClass('hamburger--open');
-        });
-        $('.drawer').on('drawer.closed', function() {
-            $('.hamburger').removeClass('hamburger--open');
-        });
-
-        if ($(".base__filter").length) {
-            var heightCalc = $('.base__inside').height();
-
-            //var heightCalc = $('.base__inside').height() - $('.base__filter').height();
-        } else {
-            var heightCalc = $('.base__inside').height();
-        }
-
-
-        $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
-        $('.grid--item--tall, .grid__wrap, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(heightCalc);
-
-        var $grid = $('.grid').isotope({
-            // options
-            itemSelector: '.grid--item',
-            layoutMode: 'packery',
-            cat: '[data-category]'
-        });
-
-        var $items = $grid.find('.grid--item');
-        $grid.addClass('is-showing-items')
-            .isotope('revealItemElements', $items);
-
-        jQuery('.base__filter__link a').on('click', function() {
-                $grid.isotope({ filter: '.blogItem--' + $(this).data('category') })
-                jQuery('.blog__nav--click').removeClass('active');
-                jQuery('.blog__nav--click').addClass('notActive');
-                $(this).addClass('active').removeClass('notActive');
-            })
-            //swiper.destroy(true, true);
-        if ($('.owl-carousel').length) {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                items: 1,
-            });
-        }
+    //// HAMBURGER
+    $('.hamburger').on('click', function(e) {
+        e.preventDefault;
+        $('.hamburger').addClass('hamburger--open');
 
     });
-    $(window).resize(function() {
-        $('.masthead, .grid--item, .grid--item--wideShortThird').height(heightCalc / 2);
-        $('.grid--item--tall, .grid__wrap, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(heightCalc);
-    })
+
+    //// FILTER
+    $('.base__filter__link a').on('click', function() {
+        $grid.isotope({ filter: '.grid--item--type--' + $(this).data('category') })
+        $('.topNav--click').removeClass('active');
+        $('.topNav--click').addClass('notActive');
+        $(this).addClass('active').removeClass('notActive');
+    });
+
+    //// SEARCH
+    $('.header__right__icon--search, .drawer-nav--search').on('click', function(e) {
+        e.preventDefault;
+        $('.drawer').drawer('close');
+
+        if ($('.search').hasClass('search--open') === true) {
+            $('.search').removeClass('search--open');
+            $('.scrollArrow').fadeIn();
+        } else {
+            $('.scrollArrow').fadeOut();
+            $('.search').addClass('search--open');
+        }
+    });
+    $('.search__close').on('click', function(e) {
+        e.preventDefault;
+        $('.search').removeClass('search--open');
+        $('.scrollArrow').fadeIn();
+    });
+
+    //// NAVIGATION
+    $('.drawer').drawer();
+    $('.drawer').on('drawer.opened', function() {
+        $('.hamburger').addClass('hamburger--open');
+    });
+    $('.drawer').on('drawer.closed', function() {
+        $('.hamburger').removeClass('hamburger--open');
+    });
+
+    //// IMAGE HOVER
+    $(".imageHover").each(function(index, el) {
+        var no = $(this).data('no');
+        var yes = $(this).data('yes');
+        $(this).css('background-image', 'url(' + no + ')');
+        $(this).on({
+            mouseenter: function() {
+                $(this).css('background-image', 'url(' + yes + ')');
+            },
+            mouseleave: function() {
+                if ($(this).hasClass('clicked') === false) {
+                    $(this).css('background-image', 'url(' + no + ')');
+                }
+            }
+        })
+    });
+
+    // Grid--item click. It's heavy as fuck
+    $('.grid--item').on('click', function(e) {
+        e.preventDefault;
+        var no = $(this).data('no');
+        var yes = $(this).data('yes');
+        $.each($(this).siblings(), function(i, l) {
+            var no = $(this).data('no');
+            $(this).css('background-image', 'url(' + no + ')');
+        })
+        $(this).siblings().removeClass('clicked');
+        $(this).toggleClass('clicked');
+        if ($(this).hasClass('clicked')) {
+            if ($('.base__filter').length && $(this).has('.grid--item__overlay').length) {
+                $(this).css('background-image', 'url(' + yes + ')');
+                if ($('body').hasClass('desktop')) $('.base__filter').fadeTo(666, 0);
+            }
+        } else {
+            if ($('.base__filter').length && $(this).has('.grid--item__overlay').length) {
+                $(this).css('background-image', 'url(' + no + ')');
+                if ($('body').hasClass('desktop')) $('.base__filter').fadeTo(666, 0.75);
+            }
+
+        }
+    });
+
+
+    //// ISOTOPE
+    var $grid = $('.grid').isotope({
+        itemSelector: '.grid--item',
+        layoutMode: 'packery',
+        cat: '[data-category]'
+    });
+    //// REVEAL ISOTOPE
+    var $items = $grid.find('.grid--item');
+    $grid.addClass('is-showing-items')
+        .isotope('revealItemElements', $items);
+
+    // OWL CAROUSEL
+    if ($('.owl-carousel').length) {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            items: 1,
+        });
+    }
+
+});

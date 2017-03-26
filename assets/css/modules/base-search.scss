@@ -11,10 +11,22 @@
     display: none;
     top: 0;
     left: 0;
-    background:rgba(187, 189, 191,.7);
+    background: rgba(187, 189, 191, .7);
     opacity: 0;
     transition: 1s all;
-
+    @include phone {
+        overflow: scroll;
+                ::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        ::-webkit-scrollbar {
+            width: 0;
+            height:.2em;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #aaa;
+        }
+    }
     &__close {
         background-image: url(../images/PNG/Collapse_Large.png);
         background-image: url(../images/SVG/Collapse_Large.svg), linear-gradient(transparent, transparent);
@@ -29,23 +41,57 @@
     &--open {
         display: flex;
         opacity: 1;
+        @include phone {
+            display: block;
+        }
     }
     &__wrap {
         width: 63%;
         display: block;
         margin: 0 auto;
         height: 30em;
+        @include phone {
+            width: 90%;
+        }
     }
     &__boxes {
         display: flex;
         animation: fade-in-top 1s;
+        overflow: hidden;
+        padding-bottom: 2em;
+        overflow-x: scroll;
+        @include phone {
+            display: block;
+            overflow: hidden;
+            width: 100%;
+        }
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        &::-webkit-scrollbar {
+            width: 0;
+            height:.2em;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: #aaa;
+        }
         &__box {
             margin-right: 2em;
+            @include phone {
+                margin: 0;
+                text-align: center;
+                margin-bottom: 2em;
+            }
             &__image {
                 height: 9.5em;
                 width: 14em;
                 background: #fff;
                 border: 1px solid $grey;
+                @include phone {
+                    margin: 0 auto;
+                    width: 16em;
+                    height: 10em;
+                }
             }
             &__title {
                 display: block;
@@ -65,13 +111,16 @@
     }
     &__term {
         position: relative;
-        font: $futuraMedium 8.5em/1em $futura;
+        font: $futuraMedium 4.5em/1em $futura;
         width: 97%;
         text-align: left;
         margin-left: 0em;
         padding-left: .1em;
         margin-top: .5em;
         border-bottom: 1px solid $grey;
+        @include phone {
+            margin-top: 1.3em;
+        }
     }
     &__results {
         &__text {

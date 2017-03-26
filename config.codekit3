@@ -254,6 +254,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/modules\/base-swiper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/base-swiper.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/modules\/base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -6569,6 +6582,12 @@
 		"oA": 2,
 		"oAP": "\/services.html",
 		"oF": 0
+		},
+	"\/team.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/team.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -8645,7 +8664,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {

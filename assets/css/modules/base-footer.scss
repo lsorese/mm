@@ -6,6 +6,9 @@
     margin-left: #{$gutter / 2 + em};
     z-index: 10000000;
     overflow: visible;
+    @include phone {
+        display: none;
+    }
     &__newsletter,
     &__legal {
         height: #{$gutter / 1.5 + em};

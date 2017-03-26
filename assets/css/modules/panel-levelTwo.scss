@@ -2,6 +2,10 @@
     width: 80%;
     text-align: left;
     padding-top: 1em;
+    @include phone {
+        margin-left: 0rem;
+        margin-top: auto;
+    }
     &__h2 {
         letter-spacing: 1px;
         font: $futuraLight 2.25em/1.5em $futura;
@@ -11,6 +15,10 @@
         width: 35%;
         font: $futuraLight 1em/1.75em $futura;
         letter-spacing: 1px;
+        @include phone {
+            width: auto;
+            line-height: 1.25em;
+        }
     }
     &__button {
         position: relative;
@@ -24,6 +32,9 @@
         color: #fff;
         transition: .5s all;
         text-transform: uppercase;
+        @include phone {
+            margin-top: 1.25em;
+        }
         &--center {
             margin: 0 auto;
         }
@@ -51,6 +62,9 @@
     }
     &--center {
         text-align: center;
+        @include phone {
+            margin: auto;
+        }
     }
     &--botLeft {
         width: 90%;
@@ -59,10 +73,16 @@
         height: 100%;
         position: relative;
         display: flex;
-
         .levelTwo__button {
-       margin-top: auto;
-       margin-bottom: 3.5em;
+            margin-top: auto;
+            margin-bottom: 3.5em;
+            @include phone {
+                margin-top: auto;
+                margin-bottom: 7em;
+                margin-left: 3em;
+                position: absolute;
+                bottom: 0;
+            }
         }
     }
 }
