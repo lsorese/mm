@@ -1,18 +1,18 @@
-$phone-width: 576px;
-$tablet-width: 768px;
-$desktop-width: 1024px;
-
-
+$phone-width: 565px;
+$tablet-width: 960px;
+$desktop-width: 1420px;
 @mixin ultra {
     @media (min-width: #{$desktop-width} + 1) {
         @content;
     }
 }
+
 @mixin desktop {
     @media (max-width: #{$desktop-width}) {
         @content;
     }
 }
+
 @mixin tablet {
     @media (max-width: #{$tablet-width}) {
         @content;
@@ -24,8 +24,9 @@ $desktop-width: 1024px;
         @content;
     }
 }
+
 @mixin phoneHorizontal {
-    @media (orientation:landscape) and (max-width: #{$phone-width} - 1)  {
+    @media (orientation: landscape) and (max-width: #{$phone-width} - 1) {
         @content;
     }
 }
@@ -45,18 +46,17 @@ $desktop-width: 1024px;
 }
 
 .slicknav_menu {
-    display:none;
+    display: none;
 }
 
 ::-webkit-input-placeholder {
     color: #333;
 }
 
-
 html {
     height: 100%;
     color: hsl(0, 0%, 25%);
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     text-rendering: optimizeLegibility;
     overflow: hidden;
 }
@@ -72,11 +72,7 @@ body {
     margin: 0;
     line-height: 100%;
     font-size: 16px;
-    @include tablet {
-        font-size: 14px;
-    }
-        overflow: hidden;
-
+    overflow: hidden;
 }
 
 h1,

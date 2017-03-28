@@ -11,867 +11,193 @@
     <title>Mass Media</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.min.css" />
     <link rel="stylesheet" href="bower_components/drawer/dist/css/drawer.min.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
+    <div class="bigOverlay" id="noscript">TEST</div>
+    <script>
+    document.getElementById('noscript').style.display = 'none';
+    </script>
 </head>
 
-<body class="drawer drawer--right">
-    <div class="base">
-        <div class="header">
-            <div class="header__logo"></div>
-            <div class="header__right">
-                <div class="header__right__icon header__right__icon--search"></div>
-                <div class="hamburger drawer-toggle">
-                    <div class="hamburger__bun">
-                        <span class="line line--one"></span>
-                        <span class="line line--two"></span>
-                        <span class="line line--three"></span>
+<body class="drawer drawer--right sub">
+    <div class="main animsition">
+        <div class="base">
+            <div class="header">
+                <a href="/" class="header__logo"></a>
+                <div class="header__right">
+                    <div class="header__right__icon header__right__icon--search"></div>
+                    <div class="hamburger drawer-toggle">
+                        <div class="hamburger__bun">
+                            <span class="line line--one"></span>
+                            <span class="line line--two"></span>
+                            <span class="line line--three"></span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="base__filter">
-            <ul>
-                <li class="base__filter__link"><a href="#" class="topNav--click" data-category="tech">Tech</a></li>
-                <li class="base__filter__link"><a href="#" class="topNav--click" data-category="arts">Arts</a></li>
-                <li class="base__filter__link"><a href="#" class="topNav--click" data-category="social">Social</a></li>
-                <li class="base__filter__link"><a href="#" class="topNav--click" data-category="guides">Guides</a></li>
-                <li class="base__filter__link"><a href="#" class="topNav--click" data-category="culture">Culture</a></li>
-            </ul>
-        </div>
-        <div class="base__inside">
-            <div class="scrollArea">
-                <div class="scrollArea--viewport">
-                    <div class="blog">
-                        <div class="grid">
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image">
-                                    <div class="blogItem__image__inner" style="background-image:url('https://unsplash.it/200/300');"></div>
+            <div class="base__filter">
+                <ul>
+                    <li class="base__filter__link"><a href="#" class="topNav--click" data-category="tech">Tech</a></li>
+                    <li class="base__filter__link"><a href="#" class="topNav--click" data-category="arts">Arts</a></li>
+                    <li class="base__filter__link"><a href="#" class="topNav--click" data-category="social">Social</a></li>
+                    <li class="base__filter__link"><a href="#" class="topNav--click" data-category="guides">Guides</a></li>
+                    <li class="base__filter__link"><a href="#" class="topNav--click" data-category="culture">Culture</a></li>
+                </ul>
+            </div>
+            <div class="base__inside">
+                <div class="scrollArea">
+                    <div class="scrollArea--viewport">
+                        <div class="blog">
+                            <div class="grid">
+                                <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
+                                    <div class="blogItem--wrap">
+                                        <div class="blogItem__image">
+                                            <div class="blogItem__image__inner" style="background-image:url('https://unsplash.it/200/300');"></div>
+                                        </div>
+                                        <h4 class="blogItem__h4">Tech</h4>
+                                        <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
+                                        <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
+                                    </div>
+                                </div>                                <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
+                                    <div class="blogItem--wrap">
+                                        <div class="blogItem__image"></div>
+                                        <h4 class="blogItem__h4">Guides</h4>
+                                        <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
+                                        <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
+                                    </div>
                                 </div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                           <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image">
-                                    <div class="blogItem__image__inner" style="background-image:url('https://unsplash.it/200/300');"></div>
+                                <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
+                                    <div class="blogItem--wrap">
+                                        <div class="blogItem__image"></div>
+                                        <h4 class="blogItem__h4">Culture</h4>
+                                        <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
+                                        <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
+                                    </div>
                                 </div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                           <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image">
-                                    <div class="blogItem__image__inner" style="background-image:url('https://unsplash.it/200/300');"></div>
+                                <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
+                                    <div class="blogItem--wrap">
+                                        <div class="blogItem__image"></div>
+                                        <h4 class="blogItem__h4">Arts</h4>
+                                        <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
+                                        <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
+                                    </div>
                                 </div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                           <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image">
-                                    <div class="blogItem__image__inner" style="background-image:url('https://unsplash.it/200/300');"></div>
+                                <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
+                                    <div class="blogItem--wrap">
+                                        <div class="blogItem__image"></div>
+                                        <h4 class="blogItem__h4">Social</h4>
+                                        <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
+                                        <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
+                                    </div>
                                 </div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                           <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image">
-                                    <div class="blogItem__image__inner" style="background-image:url('https://unsplash.it/200/300');"></div>
+                                <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
+                                    <div class="blogItem--wrap">
+                                        <div class="blogItem__image"></div>
+                                        <h4 class="blogItem__h4">Tech</h4>
+                                        <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
+                                        <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
+                                    </div>
                                 </div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
                             </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                           <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image">
-                                    <div class="blogItem__image__inner" style="background-image:url('https://unsplash.it/200/300');"></div>
-                                </div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--social grid--item--type--social">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Social</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--guides grid--item--type--guides">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Guides</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--tech grid--item--type--tech">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Tech</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--culture grid--item--type--culture">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Culture</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                            <div class="grid--item grid--item--blog blogItem blogItem--arts grid--item--type--arts">
-                                <div class="blogItem__image"></div>
-                                <h4 class="blogItem__h4">Arts</h4>
-                                <div class="blogItem__h3">Goodbye open enrollment hello open season</div>
-                                <div class="blogItem__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec enas pulvinar tempus ante rutrum porta. </div>
-                            </div>
-                        </div>
-                        <a class="blog__more">
+                            <a class="blog__more">
                             More Articles
                         </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="base__pagination">
+                <div class="base__section">
+                </div>
+                <div class="base__scroll">
+                    <div class="base__scroll__box">s<span>croll</span></div>
+                </div>
+            </div>
+            <div class="scrollArrow"><span>Scroll</span>
+                <div></div>
+            </div>
+            <div class="footer">
+                <div class="footer__legal">
+                    <a href="#">Contact Us</a> |
+                    <a href="#">Careers</a> |
+                    <a href="#">Privacy</a>
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social__icon footer__social__icon--facebook"></a>
+                    <a class="footer__social__icon footer__social__icon--instagram"></a>
+                    <a class="footer__social__icon footer__social__icon--linkedin"></a>
+                    <a class="footer__social__icon footer__social__icon--twitter"></a>
+                </div>
+                <div class="footer__newsletter">Newsletter
+                    <div class="footer__newsletter__box">
+                        <div class="newsletterBox">
+                            <div class="newsletterBox__wrap">
+                                <p class="newsletterBox__p">Sign up to recieve news about
+                                    <br />Mass Media projects and events</p>
+                                <div class="newsletterBox__input">
+                                    <label for="">Email Address</label>
+                                    <input id="email" type="text">
+                                </div>
+                                <div class="newsletterBox__input newsletterBox__input--half">
+                                    <label for="first">First Name</label>
+                                    <input id="first" type="text">
+                                </div>
+                                <div class="newsletterBox__input newsletterBox__input--half">
+                                    <label for="last">Last Name</label>
+                                    <input id="last" type="text">
+                                </div>
+                                <input type="submit" class="newsletterBox__subscribe">Send</input>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--<div class="base__pagination">
-            <div class="base__section">
-            </div>
-            <div class="base__scroll">
-                <div class="base__scroll__box">s<span>croll</span></div>
-            </div>
-        </div> -->
         <nav class="drawer-nav" role="navigation">
             <ul>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Our Work</a></li>
-                <li><a href="#">Our Clients</a></li>
-                <li><a href="#">Our Crew</a></li>
+                <li class="drawer-nav--search">Search</li>
+                <li><a href="about.html">Our Services</a></li>
+                <li><a href="casestudies.html">Our Work</a></li>
+                <li><a href="clients.html">Our Clients</a></li>
+                <li><a href="team.html">Our Crew</a></li>
                 <li><a href="#">Our Voice</a></li>
                 <li><a href="#">Our Digits</a></li>
             </ul>
-        </nav>
-    </div>
-    <div class="footer">
-        <div class="footer__legal">
-            <a href="#">Contact Us</a> |
-            <a href="#">Careers</a> |
-            <a href="#">Privacy</a>
-        </div>
-        <div class="footer__social">
-            <div class="footer__social__icon footer__social__icon--facebook"></div>
-            <div class="footer__social__icon footer__social__icon--instagram"></div>
-            <div class="footer__social__icon footer__social__icon--linkedin"></div>
-            <div class="footer__social__icon footer__social__icon--twitter"></div>
-        </div>
-        <div class="footer__newsletter">Newsletter
-            <div class="footer__newsletter__box"></div>
-        </div>
-    </div>
-    <div class="search">
-        <div class="search__wrap">
-            <div class="search__term">Medi
-                <div class="search__close"></div>
+            <div class="footer__social">
+                <a class="footer__social__icon footer__social__icon--facebook"></a>
+                <a class="footer__social__icon footer__social__icon--instagram"></a>
+                <a class="footer__social__icon footer__social__icon--linkedin"></a>
+                <a class="footer__social__icon footer__social__icon--twitter"></a>
             </div>
-            <div class="search__results">
-                <div class="search__results__text">2 results found</div>
-                <div class="search__boxes">
-                    <div class="search__boxes__box">
-                        <div class="search__boxes__box__image"></div>
-                        <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
-                        <div class="search__boxes__box__subtitle">Campaign Development</div>
-                    </div>
-                    <div class="search__boxes__box">
-                        <div class="search__boxes__box__image"></div>
-                        <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
-                        <div class="search__boxes__box__subtitle">Campaign Development</div>
+        </nav>
+        <div class="search">
+            <div class="search__wrap">
+                <div class="search__term">Medi
+                    <div class="search__close"></div>
+                </div>
+                <div class="search__results">
+                    <div class="search__results__text">2 results found</div>
+                    <div class="search__boxes">
+                        <div class="search__boxes__box">
+                            <div class="search__boxes__box__image"></div>
+                            <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                            <div class="search__boxes__box__subtitle">Campaign Development</div>
+                        </div>
+                        <div class="search__boxes__box">
+                            <div class="search__boxes__box__image"></div>
+                            <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                            <div class="search__boxes__box__subtitle">Campaign Development</div>
+                        </div>
+                        <div class="search__boxes__box">
+                            <div class="search__boxes__box__image"></div>
+                            <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                            <div class="search__boxes__box__subtitle">Campaign Development</div>
+                        </div>
+                        <div class="search__boxes__box">
+                            <div class="search__boxes__box__image"></div>
+                            <div class="search__boxes__box__title">Acres Cannabis T-Shirt</div>
+                            <div class="search__boxes__box__subtitle">Campaign Development</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -887,14 +213,16 @@
     </script>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+    <script src="bower_components/animsition/dist/js/animsition.min.js"></script>
     <script type="text/javascript" src="bower_components/drawer/dist/js/drawer.min.js"></script>
     <script type="text/javascript" src="bower_components/iscroll/build/iscroll-lite.js"></script>
     <script type="text/javascript" src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="bower_components/isotope-packery/packery-mode.pkgd.min.js"></script>
     <script>
-    var data = ["ONE", "TWO", "THREE", "4OUR"];
+    var data = ["ONE", "2WO", "3HREE", "4OUR", "5IVE"];
     </script>
-    <script src="assets/js/app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWdr9YKmaRWCMpj2z0pFvrN5DHIz7V85o"></script>
+    <script async defer src="assets/js/app.js"></script>
 </body>
 
 </html>

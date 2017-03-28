@@ -2,12 +2,24 @@ html {
     font: $futuraMedium 16px $futura;
 }
 
+body {
+    //opacity: 0;
+}
+
 .bigOverlay {
     height: 100%;
     width: 100%;
     position: fixed;
     background: rgba(255, 255, 255, .75);
     z-index: 9999999999;
+}
+
+.main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
 }
 
 .base {
@@ -71,7 +83,7 @@ html {
             left: 0;
             width: 100%;
             height: calc(100% - 2em);
-            overflow: scroll;
+            overflow: hidden;
         }
     }
     &__pagination {
@@ -112,10 +124,25 @@ html {
         margin: 0 3.5em;
         opacity: .75;
         @include phone {
-            width:100%;
-            margin:0;
+            width: 100%;
+            margin: 0;
             position: relative;
             border: 0;
+            overflow: visible;
+            ul {
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                li {
+
+                    ul {
+
+                        display: block;
+                    }
+                }
+            }
         }
         &__link {
             display: inline-block;
@@ -128,6 +155,9 @@ html {
             line-height: 3.5em;
             font-weight: bold;
             text-transform: uppercase;
+            @include tablet {
+                padding: 0 2em;
+            }
             & a.active {
                 color: #000;
             }
@@ -215,5 +245,27 @@ html {
         div {
             background-position: 105% center;
         }
+    }
+}
+
+.base__inside {
+    top: 3.5em;
+    @include phone {
+        top: 3.5em;
+        .scrollArea {
+            margin-bottom: 3.5em;
+        }
+    }
+}
+
+.desktop {
+    .base__inside {
+        animation: .75s fadeInLeft;
+    }
+}
+
+.sub {
+    .scrollArrow {
+        display: none;
     }
 }

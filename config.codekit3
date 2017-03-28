@@ -5441,6 +5441,24 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/careers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/careers.html",
+		"oF": 0
+		},
+	"\/casestudies.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/casestudies.html",
+		"oF": 0
+		},
+	"\/clients.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/clients.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -6575,12 +6593,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/playground\/solved-by-flexbox\/templates\/scripts.html",
-		"oF": 0
-		},
-	"\/services.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/services.html",
 		"oF": 0
 		},
 	"\/team.html": {

@@ -49,6 +49,10 @@
         float: none;
         text-align: center;
         height: 5em;
+        display: none; 
+        @include phone {
+            display: block;
+        }
         &__icon {
             float: none;
             display: inline-block;

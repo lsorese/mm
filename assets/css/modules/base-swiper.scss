@@ -553,14 +553,29 @@
     .swiper-container,
     .swiper-wrapper {
         height: 100%;
+            width: 100%;
+
+    }
+    .swiper-wrapper {
+        @include phone {
+                overflow: scroll;
+        }
     }
     .swiper-slide {
-        height: auto;
+           width: 100%;
+
+    }
+    .swiper-container {    width: 100%;
+
+        margin-bottom: 3.5em;
     }
     &.home .swiper-slide {
         height:100%;
         display: flex;
         align-content: center;
         justify-content: center;
+    }
+    &.sub .swiper-slide {
+         height: auto !important;
     }
 }

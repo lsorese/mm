@@ -2,6 +2,10 @@
     overflow: hidden;
     overflow-y: scroll;
     background:white;
+    @include phone {
+        height:100%;
+        overflow: hidden;
+    }
     &--viewport {
         overflow: visible;
         padding-right: 0em;
@@ -9,6 +13,9 @@
         .grid__wrap {
             position: relative;
             height: auto !important;
+        }
+        @include phone {
+            overflow: scroll;
         }
     }
     &--none {

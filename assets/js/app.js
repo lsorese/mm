@@ -1,26 +1,129 @@
 $(function() {
+
     function redraw() {
         var heightCalc = $('.base__inside').height();
         var widthCalc = $('.base__inside').width();
+        if ($('body').width() < 565) {
 
-        if ($('body').width() < 576) {
-            $('.grid--item, .grid--item__overlay, .grid--item--wideShortThird').height(widthCalc / 2).width(widthCalc / 2); // make square
-            $('.grid--item--tall, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(widthCalc).width(widthCalc);
+            // 1 out of 2 row on mobile
+            $('.grid--item, .grid--item__overlay, .grid--item--wideShortThird, .masthead').height(widthCalc / 2).width(widthCalc / 2);
+            $('.grid--item--tall,  .grid--item--wideTallThird').height(widthCalc).width(widthCalc);
+
+            // Full width masthead
             $('.masthead').height(widthCalc / 2).width(widthCalc);
-            $('body, html').addClass('mobile').removeClass('desktop');
-            $('.grid--item__overlay').width(widthCalc);
-        } else {
-            $('.masthead, .grid--item, .grid--item__overlay, .grid--item--wideShortThird').height(heightCalc / 2);
-            $('.grid--item--tall, .grid__wrap, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(heightCalc);
 
-            $('body, html').addClass('desktop').removeClass('mobile');
+            $('.grid--item--case').width(widthCalc).height(2.5 * (heightCalc / 6));
+
+            $('.swiper-slide, .swiper-wrapper, .blog, .scrollArea, .scrollArea--viewport').height(heightCalc);
+            // Set class variable
+            $('body, html').addClass('mobile').removeClass('desktop');
+            // For overlay grids: 2 out of 4 columns
+
+            $('.grid--item__overlay').width(widthCalc);
+
+
+        } else {
+            // 1 out of 2 row on desktop
+            $('.grid--item').width(widthCalc / 4);
+            $('.grid--item, .grid--item__overlay, .grid--item--wideShortThird, .masthead').height(heightCalc / 2);
+            // 2 out of 2 row on desktop
+            $('.grid--item--tall, .grid__wrap, .scrollArea, .scrollArea--none, .grid--item--wideTallThird, .blogArticle__copy').height(heightCalc);
+            // For overlay grids: 2 out of 4 columns
             $('.grid--item__overlay').width(widthCalc / 2);
+            // Haphazard
+            $('.grid--item--tinyShortThird').width(3 * (widthCalc / 10));
+            $('.grid--item--wideShortThird').width(3.5 * (widthCalc / 10));
+            $('.grid--item--wideTallThird').width(3.5 * (widthCalc / 10));
+
+            $('.masthead').width(widthCalc);
+            // 1 out of 3 rows on desktop
+            $('.grid--item--style2, .grid--item--blog').width(widthCalc / 3)
+                // Set class variable
+            $('body, html').addClass('desktop').removeClass('mobile');
+
+            if (typeof swiper === 'object') {
+                console.log("Already a swiper")
+            } else {
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.base__pagination .base__section',
+                    paginationClickable: true,
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    keyboardControl: true,
+                    mousewheelControl: true,
+                    direction: 'vertical',
+                    onSlideChangeEnd: function(swiper) {
+                        $('.bullet').removeClass('active');
+                        $('.bullet[data-index="' + swiper.activeIndex + '"]').addClass('active');
+                        if (swiper.activeIndex > 0) {
+                            $('.scrollArrow').fadeOut();
+                        } else {
+                            $('.scrollArrow').fadeIn();
+                        }
+                    },
+                    paginationBulletRender: function(swiper, index, className) {
+                        return '<div class="bullet" data-name="' + data[index] + '" data-index="' + index + '"><span class="bullet__one"></span><span class="bullet__two"></span><span class="bullet__name">' + data[index] + '</span></div>';
+
+                    },
+                    onInit: function(swiper) {
+                        $('.bullet[data-index="' + swiper.activeIndex + '"]').addClass("active");
+
+                        $('.bullet').on('click', function() {
+                            swiper.slideTo($(this).attr('data-index'), 300);
+                        });
+                        $('.base__scroll').on('click', function() {
+                            swiper.slideNext(300);
+                        });
+                        $('.scrollArrow').on('click', function() {
+                            swiper.slideNext(300);
+                        });
+                    },
+                    onAfterResize: function() {
+                        if ($('body').width() < 565) {
+                            swiper.destroy(true, true);
+                            console.log("Destroyed Swiper");
+                        }
+                        $('.bullet[data-index="' + swiper.activeIndex + '"]').addClass("active");
+                        $('.bullet').on('click', function() {
+                            swiper.slideTo($(this).attr('data-index'), 300);
+                        });
+                        $('.base__scroll').on('click', function() {
+                            swiper.slideNext(300);
+                        });
+                        $('.scrollArrow').on('click', function() {
+                            swiper.slideNext(300);
+                        });
+                    }
+                });
+            }
         }
     }
 
     redraw();
     $(window).resize(function() {
         redraw();
+    });
+    $(".animsition").animsition({
+        inClass: 'fade-in',
+        outClass: 'fade-out',
+        inDuration: 400,
+        outDuration: 400,
+        linkElement: '.drawer-nav a, .header__logo',
+        // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+        loading: true,
+        loadingParentElement: 'body', //animsition wrapper element
+        loadingClass: 'animsition-loading',
+        loadingInner: '', // e.g '<img src="loading.svg" />'
+        timeout: false,
+        timeoutCountdown: 5000,
+        onLoadEvent: true,
+        browser: ['animation-duration', '-webkit-animation-duration'],
+        // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+        // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+        overlay: false,
+        overlayClass: 'animsition-overlay-slide',
+        overlayParentElement: 'body',
+        transition: function(url) { window.location.href = url; }
     });
 
     // Google Maps
@@ -34,46 +137,6 @@ $(function() {
             position: marker,
             icon: 'assets/images/PNG/Map.png',
             map: map
-        });
-    }
-    if ($('body').width() < 576) {
-        var heightCalc = $('.base__inside').height();
-
-
-    } else {
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.base__pagination .base__section',
-            paginationClickable: true,
-            slidesPerView: 1,
-            spaceBetween: 0,
-            keyboardControl: true,
-            mousewheelControl: true,
-            direction: 'vertical',
-            onSlideChangeEnd: function(swiper) {
-                $('.bullet').removeClass('active');
-                $('.bullet[data-index="' + swiper.activeIndex + '"]').addClass('active');
-                if (swiper.activeIndex > 0) {
-                    $('.scrollArrow').fadeOut();
-                } else {
-                    $('.scrollArrow').fadeIn();
-                }
-            },
-            paginationBulletRender: function(swiper, index, className) {
-                return '<div class="bullet" data-name="' + data[index] + '" data-index="' + index + '"><span class="bullet__one"></span><span class="bullet__two"></span><span class="bullet__name">' + data[index] + '</span></div>';
-
-            }
-        });
-
-        // SWIPER CONTROL
-        $('.bullet[data-index="0"]').addClass("active");
-        $('.bullet').on('click', function() {
-            swiper.slideTo($(this).attr('data-index'), 300);
-        });
-        $('.base__scroll').on('click', function() {
-            swiper.slideNext(300);
-        });
-        $('.scrollArrow').on('click', function() {
-            swiper.slideNext(300);
         });
     }
 
@@ -181,7 +244,10 @@ $(function() {
             margin: 10,
             nav: true,
             items: 1,
+            singleItem: true
+
         });
     }
+
 
 });
