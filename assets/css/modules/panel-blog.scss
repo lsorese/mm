@@ -19,7 +19,7 @@
         text-align: center;
         text-transform: uppercase;
         font-size: .8em;
-        border: 2px solid #ADAFB1;
+        border: 1px solid #ADAFB1;
         color: #ADAFB1;
         letter-spacing: .2em;
         &:hover {
@@ -86,8 +86,13 @@
     &__p {
         margin-top: .5em;
         font: $futuraLight 1.1em $futura;
+        color:#929497;
+
         @include tablet {
             font-size: 1em;
+        }
+        @include phone {
+            display: none;
         }
     }
     &--social {
@@ -125,6 +130,8 @@
         display: flex;
         flex-direction: column-reverse;
         overflow: hidden;
+    transform: none;
+
     }
     &__copy {
         min-height: 10em;
@@ -146,10 +153,16 @@
  
             margin: 0 1em;
         }
+        @include phone {
+            padding-bottom: 7em;
+        }
         &__h4 {
             font: 1.05em $bebas;
             letter-spacing: .1em;
             border-bottom: 1px solid #E6E6E6;
+            @include phone {
+                padding-bottom: 1.5em;
+            }
         }
         &__wrap {
             @include tablet {

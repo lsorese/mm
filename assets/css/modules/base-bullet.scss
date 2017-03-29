@@ -53,10 +53,6 @@
     &.active {
         .bullet__one {
             border: 1px solid #222;
-        }
-    }
-    &:hover {
-        .bullet__one {
             position: relative;
             opacity: 0;
         }
@@ -68,7 +64,7 @@
             height: 1px;
             width: .9em;
             right: .85em;
-            top: -.1em;
+            top: -.075em;
         }
         .bullet__name {
             right: 6em;

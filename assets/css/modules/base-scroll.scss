@@ -1,10 +1,22 @@
 .scrollArea {
     overflow: hidden;
     overflow-y: scroll;
-    background:white;
+    background: white;
     @include phone {
-        height:100%;
+        height: 100%;
         overflow: hidden;
+    }
+    &.floater {
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        .grid {
+            width: 100%;
+            min-height: 100%;
+            position: relative;
+        }
     }
     &--viewport {
         overflow: visible;
@@ -14,9 +26,13 @@
             position: relative;
             height: auto !important;
         }
+        .grid--item {
+            animation: scale .5s;
+        }
         @include phone {
             overflow: scroll;
         }
+        padding-bottom: 3.5em;
     }
     &--none {
         overflow: hidden;

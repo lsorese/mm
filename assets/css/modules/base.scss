@@ -35,7 +35,7 @@ body {
         text-transform: uppercase;
         width: 3.5em;
         display: block;
-        top: 60%;
+        top: 66%;
         cursor: pointer;
         &__box {
             background: transparent;
@@ -49,7 +49,7 @@ body {
             text-align: center;
             line-height: 2em;
             border: 1px solid $black;
-            transition: 1s width;
+            transition: .5s width;
             overflow: hidden;
             &:hover {
                 width: 5.25em;
@@ -108,8 +108,7 @@ body {
         z-index: 100;
         left: 0;
         margin: 0;
-        top: 40%;
-        margin-top: -.5em
+        top: 50%;
     }
     &__filter {
         animation: 1s fade-in-top-o75;
@@ -119,7 +118,7 @@ body {
         text-align: center;
         top: 3.5em;
         position: fixed;
-        z-index: 1000;
+        z-index: 100000000;
         width: calc(100% - 7em);
         margin: 0 3.5em;
         opacity: .75;
@@ -159,9 +158,9 @@ body {
                 padding: 0 2em;
             }
             & a.active {
-                color: #000;
+                color: #231f20;
             }
-            &.has-child::after {
+           /* &.has-child::after {
                 content: "";
                 display: inline-block;
                 position: absolute;
@@ -173,7 +172,7 @@ body {
                 width: .75em;
                 background-position: center center;
                 right: 1.25em;
-            }
+            } */
             &__child {
                 display: none;
                 position: absolute;
@@ -208,7 +207,7 @@ body {
     margin-left: -4.5em;
     z-index: 1000;
     bottom: #{$gutter - 1 + em};
-    animation: arrow 3s infinite;
+    animation: arrow 2s infinite;
     @include phone {
         display: none;
     }

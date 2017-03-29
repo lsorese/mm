@@ -7,15 +7,14 @@
         min-height: 100%;
         overflow: hidden;
         background: #fff;
-
     }
 }
 
-.grid--item:nth-child(odd):not(.blogItem, .grid--item--style2) {
+.grid--item:nth-child(odd):not(.blogItem, .grid--item--style2):hover {
     background-color: $blue;
 }
 
-.grid--item:nth-child(even):not(.blogItem, .grid--item--style2) {
+.grid--item:nth-child(even):not(.blogItem, .grid--item--style2):hover {
     background-color: $pink;
 }
 
@@ -32,7 +31,7 @@
     align-items: center;
     @include phone {
         background: white;
-        height:auto !important;
+        height: auto !important;
         padding: 2em 0;
     }
     .brick {
@@ -47,12 +46,12 @@
             /*margin-top: .75em;*/
         }
         &__p {
-            width: 41%;
+            width: 50%;
             margin: 0 auto;
-            font: $futuraMedium .8em $futura;
+            font: $futuraLight 0.9em $futura;
             line-height: 1.75em;
             @include tablet {
-                width:70%;
+                width: 70%;
             }
             @include phone {
                 width: 90%;
@@ -63,7 +62,13 @@
 
 .grid--item {
     // Height controlled by JS.
+    &:hover {
+        .grid--button {
+            opacity: 1;
+        }
+    }
     width: 25%;
+    background: #ccc;
     @include tablet {
         font-size: 12px;
     }
@@ -76,16 +81,13 @@
         width: 50%;
     }
     &--wideTallThird {
-        background-color: $pink;
         width: 35%;
         height: 100%;
     }
     &--wideShortThird {
-        background-color: $blue;
         width: 35%;
     }
     &--tinyShortThird {
-        background-color: $green;
         width: 25%;
     }
     &__wrap {
@@ -104,9 +106,11 @@
         display: none;
         &--scroll {
             display: inline-block;
-            padding: 1em;
             font: $futuraLight 1em $futura;
+            overflow: scroll;
+            background: #fff;
             p {
+                padding: 1em;
                 margin-bottom: 1em;
             }
         }
@@ -182,7 +186,7 @@
             display: block;
             text-transform: uppercase;
             font: 2.85em $bebas;
-            color: #000;
+            color: #231f20;
             padding: 0 0.3em;
             @include tablet {
                 font-size: 2em;
@@ -197,6 +201,24 @@
             font: $futuraLight .85em/1.35em $futura;
             color: $grey;
             padding: 0 1em 1em 1em;
+        }
+    }
+    &--style3 {
+        .grid--item__wrap {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            display: flex;
+        }
+        &__h3 {
+            text-align: center;
+            display: block;
+            text-transform: uppercase;
+            font: 2.85em $bebas;
+            margin-top: 0;
+            color: #fff;
+            padding: 0 0.3em;
         }
     }
     &--blog {
@@ -224,55 +246,63 @@
     }
     &:nth-child(-n+4) {
         .grid--item__overlay {
-            animation: .5s movefromthetop;
+            .grid--item__overlay--scroll {
+                animation: .5s movefromthetop;
+            }
             position: absolute;
-            background: #fff;
             width: 100%;
             z-index: 0;
+            height:100%;
             opacity: 1;
             top: 100%;
         }
     }
     &.clicked:nth-child(n+5) {
         .grid--item__overlay {
-            animation: .5s movetothetop;
+            .grid--item__overlay--scroll {
+                animation: .5s movetothetop;
+            }
             position: absolute;
-            background: #fff;
             width: 100%;
             top: -100%;
             opacity: 1;
             z-index: 999;
+            height:100%;
         }
     }
     &.clicked:nth-child(4) {
         .grid--item__overlay {
-            animation: .5s movefromthetop;
+            .grid--item__overlay--scroll {
+                animation: .5s movefromthetop;
+            }
             position: absolute;
-            background: #fff;
             width: 100%;
             z-index: 0;
             opacity: 1;
             margin-left: -100%;
             top: 100%;
+            height:100%;
         }
     }
     &.clicked:nth-child(8) {
         .grid--item__overlay {
-            animation: .5s movetothetop;
+            .grid--item__overlay--scroll {
+                animation: .5s movetothetop;
+            }
             position: absolute;
-            background: #fff;
             width: 100%;
             z-index: 0;
             opacity: 1;
             margin-left: -100%;
             top: -100%;
+            height:100%;
         }
     }
 }
 
 .mobile {
     .grid__wrap {
-                @include phone {
+        @include phone {
             width: 100%;
             height: 100%;
         }
@@ -281,10 +311,10 @@
         .grid--item__overlay {
             animation: .5s movefromthetop;
             position: absolute;
-            background: #fff;
             width: 100%;
             z-index: 0;
             opacity: 1;
+            height: 100%;
             left: 0%;
             margin-left: 0;
             top: 100%;
@@ -294,6 +324,49 @@
         .grid--item__overlay {
             left: -100%;
             margin-left: 0%;
+        }
+    }
+}
+
+.grid--button {
+    opacity: 0;
+    width: 11em;
+    position: absolute;
+    display: inline-block;
+    height: 2.5em;
+    padding: 0 1.7em;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    color: #fff;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    text-transform: normal;
+    top: 50%;
+    left: 50%;
+    margin-left: -5.5em;
+    margin-top: -1.5em;
+    line-height: 2.5em;
+    font: $proximaRegular 1em/2.5em $proxima;
+    div {
+        transition: .5s all;
+        display: block;
+        content: " ";
+        width: 5em;
+        position: absolute;
+        padding-left: 1em;
+        left: -1.25em;
+        line-height: 1.4em;
+        height: 2.5em;
+        background-image: url('../images/SVG/BlueArrow.png');
+        background-image: url('../images/SVG/BlueArrow.svg'), linear-gradient(transparent, transparent);
+        background-position: 145% center;
+        background-size: auto 30%;
+        background-repeat: no-repeat;
+    }
+    &:hover {
+        padding: 0 0.85em 0 2.55em;
+        div {
+            background-position: 130% center;
         }
     }
 }

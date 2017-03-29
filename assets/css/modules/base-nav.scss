@@ -30,8 +30,8 @@
             font: $futuraLight 1em $futura;
             color: $grey;
             @include phone {
-                height: 4.5em;
-                line-height: 4.5em;
+                height: 4em;
+                line-height: 4em;
             }
         }
     }
